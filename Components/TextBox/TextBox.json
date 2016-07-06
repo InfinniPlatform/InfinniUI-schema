@@ -1,0 +1,20 @@
+﻿{
+  "id": "TextBox",
+  "description": "Редактор неформатированного текста",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/TextEditorBase"
+  },
+  "properties": {
+    "Multiline": {
+      "description": "Разрешен ли многострочный текст",
+      "type": "boolean",
+      "default": false
+    },
+    "LineCount": {
+      "description": "Максимально видимое количество строк",
+      "type": "integer"
+    }
+  },
+  "additionalProperties": false
+}

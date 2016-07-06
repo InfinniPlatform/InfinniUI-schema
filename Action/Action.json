@@ -1,0 +1,53 @@
+﻿{
+  "id": "Action",
+  "description": "Действие, которое может быть вызвано из визуального представления",
+  "type": "object",
+  "properties": {
+    "AcceptAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/AcceptAction"
+    },
+    "CancelAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/CancelAction"
+    },
+    "AddAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/AddAction"
+    },
+    "AddItemAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/AddItemAction"
+    },
+    "EditAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditAction"
+    },
+    "EditItemAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditItemAction"
+    },
+    "DeleteAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DeleteAction"
+    },
+    "DeleteItemAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DeleteItemAction"
+    },
+    "SaveAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/SaveAction"
+    },
+    "UpdateAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/UpdateAction"
+    },
+    "OpenAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/OpenAction"
+    },
+    "SelectAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/SelectAction"
+    },
+    "PrintReportAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/PrintReportAction"
+    },
+    "PrintViewAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/PrintViewAction"
+    },
+    "ServerAction": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ServerAction"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,9 @@
+﻿{
+  "id": "ScrollVisibility",
+  "description": "Видимость полосы прокрутки в ScrollPanel",
+  "enum": [
+    "Auto",
+    "Visible",
+    "Hidden"
+  ]
+}

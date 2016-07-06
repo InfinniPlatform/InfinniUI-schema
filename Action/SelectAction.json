@@ -1,0 +1,23 @@
+﻿{
+  "id": "SelectAction",
+  "description": "Действие открытия представления для выбора данных",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+  },
+  "properties": {
+    "View": {
+      "description": "Ссылка на представление",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkView"
+    },
+    "SourceValue": {
+      "description": "Источник выбранного значения",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding"
+    },
+    "DestinationValue": {
+      "description": "Приемник выбранного значения",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding"
+    }
+  },
+  "additionalProperties": false
+}

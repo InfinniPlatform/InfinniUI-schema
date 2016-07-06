@@ -1,0 +1,15 @@
+﻿{
+  "id": "MenuBar",
+  "description": "Меню",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+  },
+  "properties": {
+    "ConfigId": {
+      "description": "Идентификатор конфигурации для загрузки меню",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

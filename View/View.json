@@ -1,0 +1,59 @@
+﻿{
+  "id": "View",
+  "description": "Визуальное представление",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+  },
+  "properties": {
+    "Icon": {
+      "description": "Изображение заголовка представления",
+      "type": "string"
+    },
+    "Scripts": {
+      "description": "Список скриптов представления",
+      "type": "array",
+      "items": {
+        "$ref": "http://demo.infinnity.ru:8081/display/MC/Script"
+      }
+    },
+    "Parameters": {
+      "description": "Список источников данных представления",
+      "type": "array",
+      "items": {
+        "$ref": "http://demo.infinnity.ru:8081/display/MC/Parameter"
+      }
+    },
+    "DataSources": {
+      "description": "Список источников данных представления",
+      "type": "array",
+      "items": {
+        "$ref": "http://demo.infinnity.ru:8081/display/MC/DataSource"
+      }
+    },
+    "ChildViews": {
+      "description": "Список ссылок на дочерние представления",
+      "type": "array",
+      "items": {
+        "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkViewItem"
+      }
+    },
+    "OnOpening": {
+      "description": "Обработчик события о том, что представление открывается",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnOpened": {
+      "description": "Обработчик события о том, что представление было открыто",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnClosing": {
+      "description": "Обработчик события о том, что представление закрывается",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnClosed": {
+      "description": "Обработчик события о том, что представление было закрыто",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    }
+  },
+  "additionalProperties": false
+}

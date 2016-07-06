@@ -1,0 +1,24 @@
+﻿{
+  "id": "DataNavigation",
+  "description": "Панель навигации по данным",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/Element"
+  },
+  "properties": {
+    "AvailablePageSizes": {
+      "description": "Список доступных размеров страниц",
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "DataSource": {
+      "description": "Наименование источника данных",
+      "type": "string",
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

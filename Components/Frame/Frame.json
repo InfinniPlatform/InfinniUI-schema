@@ -1,0 +1,15 @@
+﻿{
+  "id": "Frame",
+  "description": "Элемент для отображения Web-страницы",
+  "type": "object",
+  "extends": [
+    {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Element"
+    },
+    {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditorBase"
+    }
+  ],
+  "properties": {},
+  "additionalProperties": false
+}

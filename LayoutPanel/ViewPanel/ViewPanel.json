@@ -1,0 +1,15 @@
+﻿{
+  "id": "ViewPanel",
+  "description": "Контейнер для встраивания представления",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+  },
+  "properties": {
+    "View": {
+      "description": "Ссылка на представление",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkView"
+    }
+  },
+  "additionalProperties": false
+}

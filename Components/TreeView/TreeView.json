@@ -1,0 +1,29 @@
+﻿{
+  "id": "TreeView",
+  "description": "Иерархический список",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ListEditorBase"
+  },
+  "properties": {
+    "KeySelector": {
+      "description": "Функция выборки из элемента коллекции идентификатора",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "KeyProperty": {
+      "description": "Свойство элемента коллекции с идентификатором",
+      "type": "string",
+      "required": true
+    },
+    "ParentSelector": {
+      "description": "Функция выборки из элемента коллекции идентификатора родителя",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "ParentProperty": {
+      "description": "Свойство элемента коллекции с идентификатором родителя",
+      "type": "string",
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

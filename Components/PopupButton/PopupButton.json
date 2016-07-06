@@ -1,0 +1,15 @@
+﻿{
+  "id": "PopupButton",
+  "description": "Кнопка со всплывающим контейнером",
+  "type": "object",
+  "extends": [
+    {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Button"
+    },
+    {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+    }
+  ],
+  "properties": {},
+  "additionalProperties": false
+}

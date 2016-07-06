@@ -1,0 +1,98 @@
+﻿{
+  "id": "VisualElement",
+  "description": "Визуальный элемент представления",
+  "type": "object",
+  "properties": {
+    "View": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/View"
+    },
+    "Button": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Button"
+    },
+    "PopupButton": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/PopupButton"
+    },
+    "ToolBar": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ToolBar"
+    },
+    "MenuBar": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/MenuBar"
+    },
+    "Label": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Label"
+    },
+    "CheckBox": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/CheckBox"
+    },
+    "ToggleButton": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ToggleButton"
+    },
+    "TextBox": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/TextBox"
+    },
+    "NumericBox": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/NumericBox"
+    },
+    "DatePicker": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DatePicker"
+    },
+    "PasswordBox": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/PasswordBox"
+    },
+    "Icon": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Icon"
+    },
+    "ImageBox": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ImageBox"
+    },
+    "FileBox": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/FileBox"
+    },
+    "ComboBox": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ComboBox"
+    },
+    "ListBox": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ListBox"
+    },
+    "RadioGroup": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/RadioGroup"
+    },
+    "DataGrid": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataGrid"
+    },
+    "TreeView": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/TreeView"
+    },
+    "DataNavigation": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataNavigation"
+    },
+    "DocumentViewer": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DocumentViewer"
+    },
+    "Panel": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Panel"
+    },
+    "TabPanel": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/TabPanel"
+    },
+    "GridPanel": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/GridPanel"
+    },
+    "StackPanel": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/StackPanel"
+    },
+    "ScrollPanel": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ScrollPanel"
+    },
+    "ViewPanel": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ViewPanel"
+    },
+    "ExtensionPanel": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ExtensionPanel"
+    },
+    "Frame": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Frame"
+    }
+  },
+  "additionalProperties": false
+}

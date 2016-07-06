@@ -1,0 +1,8 @@
+﻿{
+  "id": "RadioGroupOrientation",
+  "description": "Ориентация RadioGroup",
+  "enum": [
+    "Horizontal",
+    "Vertical"
+  ]
+}

@@ -1,0 +1,23 @@
+﻿{
+	"id": "LinkViewItem",
+	"description": "Именованный элемент, хранящий ссылку на представление",
+	"type": "object",
+	"properties": {
+		"Name": {
+			"description": "Наименование ссылки на представление",
+			"type": "string",
+			"required": true
+		},
+		"LinkView": {
+			"description": "Значение ссылки на представление",
+			"$ref": "http://demo.infinnity.ru:8081/display/MC/LinkView",
+			"required": true
+		},
+		"Resolve": {
+			"description": "Разрешать ссылку",
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"additionalProperties": false
+}

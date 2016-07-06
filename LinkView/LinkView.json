@@ -1,0 +1,20 @@
+﻿{
+  "id": "LinkView",
+  "description": "Контейнер для описания ссылки на представление",
+  "type": "object",
+  "properties": {
+    "ExistsView": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ExistsView"
+    },
+    "AutoView": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/AutoView"
+    },
+    "InlineView": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/InlineView"
+    },
+    "ChildView": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ChildView"
+    }
+  },
+  "additionalProperties": false
+}

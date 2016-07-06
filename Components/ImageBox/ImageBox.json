@@ -1,0 +1,27 @@
+﻿{
+  "id": "ImageBox",
+  "description": "Редактор изображений",
+  "type": "object",
+  "extends": [
+    {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Element"
+    },
+    {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditorBase"
+    }
+  ],
+  "properties": {
+    "AcceptTypes": {
+      "description": "Список допустимых форматов данных",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "MaxSize": {
+      "description": "Максимальный размер данных в байтах",
+      "type": "integer"
+    }
+  },
+  "additionalProperties": false
+}

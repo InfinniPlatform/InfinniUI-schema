@@ -1,0 +1,32 @@
+﻿{
+  "id": "EditorBase",
+  "description": "Интерфейс редакторов значений",
+  "type": "object",
+  "properties": {
+    "Value": {
+      "description": "Значение",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding"
+    },
+    "HintText": {
+      "description": "Текст с подсказкой для ввода",
+      "type": "string"
+    },
+    "ErrorText": {
+      "description": "Текст с информацией об ошибке",
+      "type": "string"
+    },
+    "WarningText": {
+      "description": "Текст с информацией о предупреждении",
+      "type": "string"
+    },
+    "OnValueChanging": {
+      "description": "Обработчик события о том, что значение изменяется",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnValueChanged": {
+      "description": "Обработчик события о том, что значение было изменено",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    }
+  },
+  "additionalProperties": false
+}

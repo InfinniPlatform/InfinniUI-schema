@@ -1,0 +1,15 @@
+﻿{
+  "id": "CheckBox",
+  "description": "Переключатель в виде флажка",
+  "type": "object",
+  "extends": [
+    {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Element"
+    },
+    {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditorBase"
+    }
+  ],
+  "properties": {},
+  "additionalProperties": false
+}

@@ -1,0 +1,16 @@
+﻿{
+  "id": "StackPanel",
+  "description": "Контейнер в виде стека элементов",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+  },
+  "properties": {
+    "Orientation": {
+      "description": "Ориентация стека",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/StackPanelOrientation",
+      "default": "Vertical"
+    }
+  },
+  "additionalProperties": false
+}

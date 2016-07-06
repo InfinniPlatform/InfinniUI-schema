@@ -1,0 +1,22 @@
+﻿{
+  "id": "Container",
+  "description": "Контейнер визуальных элементов представления",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/Element"
+  },
+  "properties": {
+    "ItemTemplate": {
+      "description": "Шаблон отображения дочерних элементов контейнера",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+    },
+    "Items": {
+      "description": "Список дочерних элементов контейнера",
+      "type": "array",
+      "items": {
+        "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,26 @@
+﻿{
+  "id": "MetadataDataSource",
+  "description": "Источник данных представления для метаданных InfinniPlatform",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/BaseDataSource"
+  },
+  "properties": {
+    "MetadataType": {
+      "description": "Тип метаданных",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/MetadataType",
+      "required": true
+    },
+    "ConfigId": {
+      "description": "Идентификатор конфигурации",
+      "type": "string",
+      "required": false
+    },
+    "DocumentId": {
+      "description": "Идентификатор документа",
+      "type": "string",
+      "required": false
+    }
+  },
+  "additionalProperties": false
+}

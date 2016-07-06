@@ -1,0 +1,17 @@
+﻿{
+  "id": "DataSource",
+  "description": "Контейнер для описания источника данных представления",
+  "type": "object",
+  "properties": {
+    "ObjectDataSource": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ObjectDataSource"
+    },
+    "DocumentDataSource": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DocumentDataSource"
+    },
+    "MetadataDataSource": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/MetadataDataSource"
+    }
+  },
+  "additionalProperties": false
+}

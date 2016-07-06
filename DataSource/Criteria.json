@@ -1,0 +1,21 @@
+﻿{
+  "id": "Criteria",
+  "description": "Критерий фильтрации объекта",
+  "type": "object",
+  "properties": {
+    "CriteriaType": {
+      "description": "Оператор фильтрации",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/CriteriaType",
+      "required": true
+    },
+    "Property": {
+      "description": "Свойство объекта",
+      "type": "string"
+    },
+    "Value": {
+      "description": "Значение фильтра",
+      "type": "any"
+    }
+  },
+  "additionalProperties": false
+}

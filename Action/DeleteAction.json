@@ -1,0 +1,21 @@
+﻿{
+  "id": "DeleteAction",
+  "description": "Действие удаления текущего элемента из источника данных",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+  },
+  "properties": {
+    "Accept": {
+      "description": "Нужно ли подтверждение удаления",
+      "type": "boolean",
+      "default": true
+    },
+    "DataSource": {
+      "description": "Источник данных",
+      "type": "string",
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

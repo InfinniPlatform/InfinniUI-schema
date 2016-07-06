@@ -1,0 +1,95 @@
+﻿{
+  "id": "BaseDataSource",
+  "description": "Базовый тип источников данных представления",
+  "type": "object",
+  "properties": {
+    "Name": {
+      "description": "Наименование источника данных",
+      "type": "string",
+      "required": true
+    },
+    "IdProperty": {
+      "description": "Наименование свойства с идентификатором элемента",
+      "type": "string",
+      "default": "Id"
+    },
+    "FillCreatedItem": {
+      "description": "Предзаполнение новых элементов на сервере",
+      "type": "boolean",
+      "default": true
+    },
+    "PageNumber": {
+      "description": "Номер страницы по умолчанию",
+      "type": "integer",
+      "default": 0
+    },
+    "PageSize": {
+      "description": "Размер страницы по умолчанию",
+      "type": "integer",
+      "default": 10
+    },
+    "Query": {
+      "description": "Фильтр по умолчанию",
+      "type": "array",
+      "items": {
+        "$ref": "http://demo.infinnity.ru:8081/display/MC/Criteria"
+      }
+    },
+    "ValidationErrors": {
+      "description": "Оператор проверки модели данных документа на ошибки",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/BooleanValidator"
+    },
+    "ValidationWarnings": {
+      "description": "Оператор проверки модели данных документа на предупреждения",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/BooleanValidator"
+    },
+    "OnPageNumberChanged": {
+      "description": "Обработчик события о том, что номер страницы изменился",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnPageSizeChanged": {
+      "description": "Обработчик события о том, что размер страницы изменился",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnFilterChanged": {
+      "description": "Обработчик события о том, что фильтр элементов изменился",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnSelectedItemChanged": {
+      "description": "Обработчик события о том, что выделенный элемент изменился",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnPropertyChanged": {
+      "description": "Обработчик события о том, что одно из свойств изменилось",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnItemSaved": {
+      "description": "Обработчик события о том, что элемент сохранен",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnItemDeleted": {
+      "description": "Обработчик события о том, что элемент удален",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnItemsUpdated": {
+      "description": "Обработчик события о том, что список элементов обновлен",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnItemsAdded": {
+      "description": "Обработчик события о том, что в список элементов добавлены новые",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnErrorValidator": {
+      "description": "Обработчик события о том, что проверка на ошибки завершена",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnWarningValidator": {
+      "description": "Обработчик события о том, что проверка на предупреждения завершена",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnError": {
+      "description": "Обработчик события о том, что произошла ошибка",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    }
+  }
+}

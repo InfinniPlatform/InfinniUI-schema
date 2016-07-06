@@ -1,0 +1,17 @@
+﻿{
+  "id": "DataGrid",
+  "description": "Таблица",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ListEditorBase"
+  },
+  "properties": {
+    "Columns": {
+      "description": "Список колонок таблицы",
+      "type": "array",
+      "items": {
+        "$ref": "http://demo.infinnity.ru:8081/display/MC/DataGridColumn"
+      }
+    }
+  }
+}

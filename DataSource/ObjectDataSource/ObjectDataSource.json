@@ -1,0 +1,18 @@
+﻿{
+	"id": "ObjectDataSource",
+	"description": "Источник данных представления для произвольного массива",
+	"type": "object",
+	"extends": {
+		"$ref": "http://demo.infinnity.ru:8081/display/MC/BaseDataSource"
+	},
+	"properties": {
+		"Items": {
+			"description": "Список элементов источника данных",
+			"type": "array",
+			"items": {
+				"type": "any"
+			}
+		}
+	},
+	"additionalProperties": false
+}

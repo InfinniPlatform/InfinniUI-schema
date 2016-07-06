@@ -1,0 +1,21 @@
+﻿{
+  "id": "TemplateEditMask",
+  "description": "Маска ввода строки по шаблону",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/EditMaskBase"
+  },
+  "properties": {
+    "MaskSaveLiteral": {
+      "description": "Сохранять литералы в редактируемом значении",
+      "type": "boolean",
+      "default": true
+    },
+    "MaskPlaceHolder": {
+      "description": "Символ заполнителя для метасимволов",
+      "type": "string",
+      "default": "_"
+    }
+  },
+  "additionalProperties": false
+}

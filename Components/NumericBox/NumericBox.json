@@ -1,0 +1,24 @@
+﻿{
+  "id": "NumericBox",
+  "description": "Редактор чисел",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/TextEditorBase"
+  },
+  "properties": {
+    "MinValue": {
+      "description": "Минимальное значение",
+      "type": "number"
+    },
+    "MaxValue": {
+      "description": "Максимальное значение",
+      "type": "number"
+    },
+    "Increment": {
+      "description": "Приращение значения",
+      "type": "number",
+      "default": 1
+    }
+  },
+  "additionalProperties": false
+}

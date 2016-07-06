@@ -1,0 +1,40 @@
+﻿{
+  "id": "BaseLinkView",
+  "description": "Базовый тип для ссылки на представление",
+  "type": "object",
+  "properties": {
+    "Text": {
+      "description": "Текст заголовка представления",
+      "type": "string"
+    },
+    "OpenMode": {
+      "description": "Способ открытия представления",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/OpenMode",
+      "default": "Application"
+    },
+    "Container": {
+      "description": "Имя контейнера для открытия представления",
+      "type": "string",
+      "default": "MainContainer"
+    },
+    "Parameters": {
+      "description": "Правила передачи параметров в открываемое представление",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "description": "Наименование параметра открываемого представления",
+            "type": "string",
+            "required": true
+          },
+          "Value": {
+            "description": "Значение параметра открываемого представления",
+            "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding",
+            "required": true
+          }
+        }
+      }
+    }
+  }
+}

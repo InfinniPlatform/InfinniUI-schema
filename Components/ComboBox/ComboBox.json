@@ -1,0 +1,30 @@
+﻿{
+  "id": "ComboBox",
+  "description": "Выпадающий список",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ListEditorBase"
+  },
+  "properties": {
+    "LabelText": {
+      "description": "Текст метки",
+      "type": "string"
+    },
+    "LabelFloating": {
+      "description": "Является ли метка плавающей",
+      "type": "boolean",
+      "default": false
+    },
+    "Autocomplete": {
+      "description": "Разрешено ли автозавершение ввода",
+      "type": "boolean",
+      "default": false
+    },
+    "SelectInDialog": {
+      "description": "Разрешен ли выбор значения в диалоге",
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "additionalProperties": false
+}

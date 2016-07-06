@@ -1,0 +1,16 @@
+﻿{
+  "id": "OpenAction",
+  "description": "Действие открытия представления",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+  },
+  "properties": {
+    "View": {
+      "description": "Ссылка на представление",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkView",
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

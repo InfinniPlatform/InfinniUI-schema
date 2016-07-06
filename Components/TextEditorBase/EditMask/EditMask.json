@@ -1,0 +1,19 @@
+﻿{
+  "id": "EditMask",
+  "description": "Маска ввода данных",
+  "type": "object",
+  "properties": {
+    "NumberEditMask": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/NumberEditMask"
+    },
+    "DateTimeEditMask": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DateTimeEditMask"
+    },
+    "TemplateEditMask": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/TemplateEditMask"
+    },
+    "RegexEditMask": {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/RegexEditMask"
+    }
+  }
+}

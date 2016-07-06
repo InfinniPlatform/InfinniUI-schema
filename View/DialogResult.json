@@ -1,0 +1,9 @@
+﻿{
+	"id": "DialogResult",
+	"description": "Результат работы диалогового окна",
+	"enum": [
+		"None",
+		"Accepted",
+		"Canceled"
+	]
+}

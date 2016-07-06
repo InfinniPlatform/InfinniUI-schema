@@ -1,0 +1,21 @@
+﻿{
+  "id": "Parameter",
+  "description": "Параметр представления",
+  "type": "object",
+  "properties": {
+    "Name": {
+      "description": "Наименование параметра",
+      "type": "string",
+      "required": true
+    },
+    "Value": {
+      "description": "Значение параметра",
+      "type": "any"
+    },
+    "OnPropertyChanged": {
+      "description": "Обработчик события о том, что одно из свойств изменилось",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    }
+  },
+  "additionalProperties": false
+}

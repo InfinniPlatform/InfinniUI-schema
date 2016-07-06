@@ -1,0 +1,29 @@
+﻿{
+  "id": "TabPanel",
+  "description": "Контейнер в виде набора закладок",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+  },
+  "properties": {
+    "HeaderLocation": {
+      "description": "Расположение закладок",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/TabHeaderLocation",
+      "default": "Top"
+    },
+    "HeaderOrientation": {
+      "description": "Ориентация закладок",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/TabHeaderOrientation",
+      "default": "Horizontal"
+    },
+    "HeaderTemplate": {
+      "description": "Шаблон отображения закладок дочерних элементов панели",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+    },
+    "OnSelectedItemChanged": {
+      "description": "Обработчик события о том, что элемент был выделен",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    }
+  },
+  "additionalProperties": false
+}

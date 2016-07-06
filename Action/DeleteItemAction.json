@@ -1,0 +1,21 @@
+﻿{
+  "id": "DeleteItemAction",
+  "description": "Действие удаления текущего элемента из коллекции источника данных",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+  },
+  "properties": {
+    "Accept": {
+      "description": "Нужно ли подтверждение удаления",
+      "type": "boolean",
+      "default": true
+    },
+    "Items": {
+      "description": "Привязка данных для списка",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding",
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

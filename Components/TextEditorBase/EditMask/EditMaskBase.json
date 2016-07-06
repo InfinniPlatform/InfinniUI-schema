@@ -1,0 +1,12 @@
+﻿{
+  "id": "EditMaskBase",
+  "description": "Базовый тип маски ввода данных",
+  "type": "object",
+  "properties": {
+    "Mask": {
+      "description": "Маска ввода данных",
+      "type": "string",
+      "required": true
+    }
+  }
+}

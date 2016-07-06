@@ -1,0 +1,21 @@
+﻿{
+  "id": "SaveAction",
+  "description": "Действие сохранения текущего элемента источника данных",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+  },
+  "properties": {
+    "CanClose": {
+      "description": "Разрешено ли закрытие представления",
+      "type": "boolean",
+      "default": true
+    },
+    "DataSource": {
+      "description": "Источник данных",
+      "type": "string",
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

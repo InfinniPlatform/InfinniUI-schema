@@ -1,0 +1,10 @@
+﻿{
+  "id": "ElementHorizontalAlignment",
+  "description": "Горизонтальное выравнивание в родительском элементе",
+  "enum": [
+    "Left",
+    "Center",
+    "Right",
+    "Stretch"
+  ]
+}

@@ -1,0 +1,32 @@
+﻿{
+  "id": "DataGridColumn",
+  "description": "Колонка DataGrid",
+  "type": "object",
+  "properties": {
+    "HeaderTemplate": {
+      "description": "Шаблон отображения заголовка колонки",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+    },
+    "Header": {
+      "description": "Заголовок колонки",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+    },
+    "CellSelector": {
+      "description": "Функция выборки из элемента коллеции значения для ячейки",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "CellProperty": {
+      "description": "Свойство элемента коллекции со значением для ячейки",
+      "type": "string"
+    },
+    "CellFormat": {
+      "description": "Правила форматирования элемента коллекции для ячейки",
+      "type": "string"
+    },
+    "CellTemplate": {
+      "description": "Шаблон отображения элемента коллекции для ячейки",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+    }
+  },
+  "additionalProperties": false
+}

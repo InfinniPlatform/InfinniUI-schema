@@ -1,0 +1,40 @@
+﻿{
+  "id": "PrintReportAction",
+  "description": "Действие открытия отчета",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+  },
+  "properties": {
+    "ConfigId": {
+      "description": "Идентификатор конфигурации",
+      "type": "string",
+      "required": true
+    },
+    "ReportId": {
+      "description": "Идентификатор отчета",
+      "type": "string",
+      "required": true
+    },
+    "Parameters": {
+      "description": "Список значений параметров отчета",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "description": "Наименование параметра отчета",
+            "type": "string",
+            "required": true
+          },
+          "Value": {
+            "description": "Привязка данных текущего представления на параметр отчета",
+            "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding",
+            "required": true
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

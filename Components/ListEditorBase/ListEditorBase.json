@@ -1,0 +1,73 @@
+﻿{
+  "id": "ListEditorBase",
+  "description": "Базовый тип редакторов коллекций данных",
+  "type": "object",
+  "extends": [
+    {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+    },
+    {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditorBase"
+    }
+  ],
+  "properties": {
+    "MultiSelect": {
+      "description": "Разрешен ли выбор нескольких элементов коллекции",
+      "type": "boolean",
+      "default": false
+    },
+    "ValueSelector": {
+      "description": "Функция выборки из элемента коллекции значения для выбора",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "ValueProperty": {
+      "description": "Свойство элемента коллекции со значением для выбора",
+      "type": "string"
+    },
+    "ItemSelector": {
+      "description": "Функция выборки из элемента коллеции значения для отображения",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "ItemProperty": {
+      "description": "Свойство элемента коллекции со значением для отображения",
+      "type": "string"
+    },
+    "ItemFormat": {
+      "description": "Правила форматирования элемента коллекции для отображения",
+      "type": "string"
+    },
+    "GroupItemSort": {
+      "description": "Направление операции сортировки групп",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/SortDirection",
+      "default": "None"
+    },
+    "GroupValueSelector": {
+      "description": "Функция выборки из элемента коллекции значения для группировки",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "GroupValueProperty": {
+      "description": "Свойство элемента коллекции со значением для группировки",
+      "type": "string"
+    },
+    "GroupItemSelector": {
+      "description": "Функция выборки из элемента коллеции значения для заголовка группы",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "GroupItemProperty": {
+      "description": "Свойство элемента коллекции со значением для заголовка группы",
+      "type": "string"
+    },
+    "GroupItemFormat": {
+      "description": "Правила форматирования элемента коллекции для заголовка группы",
+      "type": "string"
+    },
+    "GroupItemTemplate": {
+      "description": "Шаблон отображения элемента коллекции для заголовка группы",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+    },
+    "OnSelectedItemChanged": {
+      "description": "Обработчик события о том, что элемент был выделен",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    }
+  }
+}

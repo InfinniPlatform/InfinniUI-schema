@@ -1,0 +1,123 @@
+﻿{
+  "id": "Element",
+  "description": "Базовый тип для визуальных элементов представления",
+  "type": "object",
+  "properties": {
+    "Name": {
+      "description": "Наименование элемента",
+      "type": "string"
+    },
+    "Text": {
+      "description": "Текст заголовка элемента",
+      "type": "string"
+    },
+    "Focusable": {
+      "description": "Возможен ли установить фокус ввода на элемент",
+      "type": "boolean",
+      "default": true
+    },
+    "Enabled": {
+      "description": "Возможен ли доступ к элементу",
+      "type": "boolean",
+      "default": true
+    },
+    "Visible": {
+      "description": "Отображается ли элемент в интерфейсе",
+      "type": "boolean",
+      "default": true
+    },
+    "VerticalAlignment": {
+      "description": "Вертикальное выравнивание в родительском элементе",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ElementVerticalAlignment",
+      "default": "Stretch"
+    },
+    "HorizontalAlignment": {
+      "description": "Горизонтальное выравнивание в родительском элементе",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ElementHorizontalAlignment",
+      "default": "Stretch"
+    },
+    "TextHorizontalAlignment": {
+      "description": "Горизонтальное выравнивание текста внутри элемента",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/TextHorizontalAlignment",
+      "default": "Left"
+    },
+    "TextVerticalAlignment": {
+      "description": "Вертикальное выравнивание текста внутри элемента",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/TextVerticalAlignment",
+      "default": "Center"
+    },
+    "TextStyle": {
+      "description": "Стиль текста элемента",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/TextStyle"
+    },
+    "Foreground": {
+      "description": "Цвет текста элемента",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ColorStyle"
+    },
+    "Background": {
+      "description": "Цвет фона элемента",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ColorStyle"
+    },
+    "Texture": {
+      "description": "Текстура элемента",
+      "type": "object"
+    },
+    "ToolTip": {
+      "description": "Подсказка элемента",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+    },
+    "OnLoaded": {
+      "description": "Обработчик события о том, что элемент был загружен",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnGotFocus": {
+      "description": "Обработчик события о том, что элемент получил фокус ввода",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnLostFocus": {
+      "description": "Обработчик события о том, что элемент потерял фокус ввода",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnMouseDoubleClick": {
+      "description": "Обработчик события о том, что по элементу сделали двойной клик мыши",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnMouseDown": {
+      "description": "Обработчик события о том, что на элементе нажали кнопку мыши",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnMouseUp": {
+      "description": "Обработчик события о том, что на элементе отпустили кнопку мыши",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnMouseWheel": {
+      "description": "Обработчик события о том, что на элементе прокрутили колесо мыши",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnMouseEnter": {
+      "description": "Обработчик события о том, что указатель мыши вошел в границы элемента",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnMouseLeave": {
+      "description": "Обработчик события о том, что указатель мыши покинул границы элемента",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnMouseMove": {
+      "description": "Обработчик события о том, что указатель мыши двигался внутри элемента",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnKeyDown": {
+      "description": "Обработчик события о том, что на элементе нажали клавишу клавиатуры",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnKeyUp": {
+      "description": "Обработчик события о том, что на элементе отпустили клавишу клавиатуры",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnPropertyChanged": {
+      "description": "Обработчик события о том, что одно из свойств изменилось",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    }
+  },
+  "additionalProperties": false
+}

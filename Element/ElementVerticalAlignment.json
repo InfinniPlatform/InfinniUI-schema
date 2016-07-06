@@ -1,0 +1,10 @@
+﻿{
+  "id": "ElementVerticalAlignment",
+  "description": "Вертикальное выравнивание в родительском элементе",
+  "enum": [
+    "Top",
+    "Center",
+    "Bottom",
+    "Stretch"
+  ]
+}

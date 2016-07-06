@@ -1,0 +1,24 @@
+﻿{
+  "id": "ToggleButton",
+  "description": "Переключатель в виде кнопки",
+  "type": "object",
+  "extends": [
+    {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Element"
+    },
+    {
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditorBase"
+    }
+  ],
+  "properties": {
+    "TextOn": {
+      "description": "Текст на включенное состояние",
+      "type": "string"
+    },
+    "TextOff": {
+      "description": "Текст на выключенное состояние",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

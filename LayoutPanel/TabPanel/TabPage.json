@@ -1,0 +1,28 @@
+﻿{
+  "id": "TabPage",
+  "description": "Страница панели закладок TabPanel",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+  },
+  "properties": {
+    "Icon": {
+      "description": "Изображение заголовка страницы",
+      "type": "string"
+    },
+    "CanClose": {
+      "description": "Разрешено ли закрытие страницы",
+      "type": "boolean",
+      "default": false
+    },
+    "OnClosing": {
+      "description": "Обработчик события о том, что страница закрывается",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnClosed": {
+      "description": "Обработчик события о том, что страница была закрыта",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    }
+  },
+  "additionalProperties": false
+}

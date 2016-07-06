@@ -1,0 +1,26 @@
+﻿{
+  "id": "DatePicker",
+  "description": "Редактор даты и времени",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/TextEditorBase"
+  },
+  "properties": {
+    "MinValue": {
+      "description": "Минимальное значение",
+      "type": "string",
+      "format": "date-time"
+    },
+    "MaxValue": {
+      "description": "Максимальное значение",
+      "type": "string",
+      "format": "date-time"
+    },
+    "Mode": {
+      "description": "Режим работы элемента",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DatePickerMode",
+      "default": "Date"
+    }
+  },
+  "additionalProperties": false
+}

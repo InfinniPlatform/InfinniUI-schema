@@ -1,0 +1,19 @@
+﻿{
+  "id": "ScrollPanel",
+  "description": "Контейнер в виде прокручиваемой области",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+  },
+  "properties": {
+    "HorizontalScroll": {
+      "description": "Видимость полосы прокрутки по горизонтали",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ScrollVisibility"
+    },
+    "VerticalScroll": {
+      "description": "Видимость полосы прокрутки по вертикали",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/ScrollVisibility"
+    }
+  },
+  "additionalProperties": false
+}

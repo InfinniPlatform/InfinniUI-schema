@@ -1,0 +1,10 @@
+﻿{
+  "id": "ListBox",
+  "description": "Список",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ListEditorBase"
+  },
+  "properties": {},
+  "additionalProperties": false
+}

@@ -1,0 +1,21 @@
+﻿{
+  "id": "AddItemAction",
+  "description": "Действие добавления элемента в коллекцию источника данных",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+  },
+  "properties": {
+    "View": {
+      "description": "Ссылка на представление",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkView",
+      "required": true
+    },
+    "Items": {
+      "description": "Привязка данных для списка",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding",
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

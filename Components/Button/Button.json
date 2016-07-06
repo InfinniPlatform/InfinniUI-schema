@@ -1,0 +1,27 @@
+﻿{
+  "id": "Button",
+  "description": "Кнопка",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/Element"
+  },
+  "properties": {
+    "ContentTemplate": {
+      "description": "Шаблон отображения содержимого кнопки",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+    },
+    "Content": {
+      "description": "Содержимое кнопки",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+    },
+    "Action": {
+      "description": "Действие при нажатии на кнопку",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/Action"
+    },
+    "OnClick": {
+      "description": "Обработчик события нажатия на кнопку",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    }
+  },
+  "additionalProperties": false
+}

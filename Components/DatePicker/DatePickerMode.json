@@ -1,0 +1,9 @@
+﻿{
+  "id": "DatePickerMode",
+  "description": "Режим работы DatePicker",
+  "enum": [
+    "Date",
+    "Time",
+    "DateTime"
+  ]
+}

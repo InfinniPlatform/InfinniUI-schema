@@ -1,0 +1,30 @@
+﻿{
+	"id": "AutoView",
+	"description": "Автоматически генерируемое представление",
+	"type": "object",
+	"extends": {
+		"$ref": "http://demo.infinnity.ru:8081/display/MC/BaseLinkView"
+	},
+	"properties": {
+		"ConfigId": {
+			"description": "Идентификатор конфигурации",
+			"type": "string",
+			"required": true
+		},
+		"DocumentId": {
+			"description": "Идентификатор документа",
+			"type": "string",
+			"required": true
+		},
+		"ViewType": {
+			"description": "Тип представления",
+			"$ref": "http://demo.infinnity.ru:8081/display/MC/ViewType",
+			"required": true
+		},
+		"MetadataName": {
+			"description": "Наименование представления",
+			"type": "string"
+		}
+	},
+	"additionalProperties": false
+}

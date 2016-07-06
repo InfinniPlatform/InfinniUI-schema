@@ -1,0 +1,9 @@
+﻿{
+  "id": "SortDirection",
+  "description": "Направление операции сортировки данных",
+  "enum": [
+    "None",
+    "Asc",
+    "Desc"
+  ]
+}

@@ -1,0 +1,10 @@
+﻿{
+  "id": "OpenMode",
+  "description": "Способ открытия представления",
+  "enum": [
+    "Application",
+    "Container",
+    "Dialog",
+    "Page"
+  ]
+}

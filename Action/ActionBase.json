@@ -1,0 +1,6 @@
+﻿{
+  "id": "ActionBase",
+  "description": "Базовый тип для предопределенных действий",
+  "type": "object",
+  "properties": {}
+}

@@ -1,0 +1,11 @@
+﻿{
+  "id": "TabHeaderLocation",
+  "description": "Расположение закладок в TabPanel",
+  "enum": [
+    "None",
+    "Left",
+    "Top",
+    "Right",
+    "Bottom"
+  ]
+}

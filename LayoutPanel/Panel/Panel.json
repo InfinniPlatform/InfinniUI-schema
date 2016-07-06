@@ -1,0 +1,45 @@
+﻿{
+  "id": "Panel",
+  "description": "Контейнер в виде прямоугольной области",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+  },
+  "properties": {
+    "Collapsible": {
+      "description": "Разрешено ли сворачивание панели",
+      "type": "boolean",
+      "default": false
+    },
+    "Collapsed": {
+      "description": "Свернута ли панель",
+      "type": "boolean",
+      "default": false
+    },
+    "HeaderTemplate": {
+      "description": "Шаблон отображения заголовка панели",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+    },
+    "Header": {
+      "description": "Заголовок панели",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+    },
+    "OnExpanding": {
+      "description": "Обработчик события о том, что панель разворачивается",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnExpanded": {
+      "description": "Обработчик события о том, что панель была развернута",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnCollapsing": {
+      "description": "Обработчик события о том, что панель сворачивается",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    },
+    "OnCollapsed": {
+      "description": "Обработчик события о том, что панель была свернута",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+    }
+  },
+  "additionalProperties": false
+}

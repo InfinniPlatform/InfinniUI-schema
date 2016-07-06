@@ -1,0 +1,25 @@
+﻿{
+  "id": "PrintViewAction",
+  "description": "Действие открытия печатного представления",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+  },
+  "properties": {
+    "PrintViewId": {
+      "description": "Идентификатор печатного представления",
+      "type": "string"
+    },
+    "PrintViewType": {
+      "description": "Тип печатного представления",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/PrintViewType",
+      "default": "ObjectView"
+    },
+    "DataSource": {
+      "description": "Источник данных",
+      "type": "string",
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

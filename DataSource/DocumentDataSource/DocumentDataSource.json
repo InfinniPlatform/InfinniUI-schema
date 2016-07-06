@@ -1,0 +1,41 @@
+﻿{
+  "id": "DocumentDataSource",
+  "description": "Источник данных представления для документов InfinniPlatform",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/BaseDataSource"
+  },
+  "properties": {
+    "ConfigId": {
+      "description": "Идентификатор конфигурации",
+      "type": "string",
+      "required": true
+    },
+    "DocumentId": {
+      "description": "Идентификатор документа",
+      "type": "string",
+      "required": true
+    },
+    "CreateAction": {
+      "description": "Действие на создание",
+      "type": "string",
+      "default": "CreateDocument"
+    },
+    "ReadAction": {
+      "description": "Действие на чтение",
+      "type": "string",
+      "default": "GetDocument"
+    },
+    "UpdateAction": {
+      "description": "Действие на изменение",
+      "type": "string",
+      "default": "SetDocument"
+    },
+    "DeleteAction": {
+      "description": "Действие на удаление",
+      "type": "string",
+      "default": "DeleteDocument"
+    }
+  },
+  "additionalProperties": false
+}

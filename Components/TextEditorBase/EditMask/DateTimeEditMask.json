@@ -1,0 +1,10 @@
+﻿{
+  "id": "DateTimeEditMask",
+  "description": "Маска ввода даты и времени",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/EditMaskBase"
+  },
+  "properties": {},
+  "additionalProperties": false
+}

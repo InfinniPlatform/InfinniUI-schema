@@ -1,0 +1,26 @@
+﻿{
+  "id": "DataBinding",
+  "description": "Привязка данных между элементом и источником",
+  "type": "object",
+  "properties": {
+    "Mode": {
+      "description": "Направление потока данных в привязке",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/BindingMode",
+      "default": "TwoWay"
+    },
+    "Source": {
+      "description": "Наименование источника данных привязки",
+      "type": "string",
+      "required": true
+    },
+    "Property": {
+      "description": "Путь к свойству источника данных привязки",
+      "type": "string"
+    },
+    "Converter": {
+      "description": "Преобразователь данных между элементом и источником",
+      "$ref": "http://demo.infinnity.ru:8081/display/MC/BindingConverter"
+    }
+  },
+  "additionalProperties": false
+}

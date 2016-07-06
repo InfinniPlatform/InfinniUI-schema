@@ -1,0 +1,10 @@
+﻿{
+	"id": "ViewType",
+	"description": "Тип представления",
+	"enum": [
+		"EditView",
+		"ListView",
+		"SelectView",
+		"HomePage"
+	]
+}

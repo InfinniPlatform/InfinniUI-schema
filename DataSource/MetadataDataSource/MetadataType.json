@@ -1,0 +1,22 @@
+﻿{
+  "id": "MetadataType",
+  "description": "Тип метаданных",
+  "enum": [
+    "Solution",
+    "Configuration",
+    "Menu",
+    "Document",
+    "Register",
+    "Assembly",
+    "View",
+    "PrintView",
+    "Service",
+    "Process",
+    "Scenario",
+    "Generator",
+    "Report",
+    "ValidationError",
+    "ValidationWarning",
+    "DocumentStatus"
+  ]
+}

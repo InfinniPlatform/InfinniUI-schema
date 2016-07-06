@@ -1,0 +1,45 @@
+﻿{
+  "id": "ServerAction",
+  "description": "Действие вызова операции на сервере",
+  "type": "object",
+  "extends": {
+    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+  },
+  "properties": {
+    "ConfigId": {
+      "description": "Идентификатор конфигурации",
+      "type": "string",
+      "required": true
+    },
+    "DocumentId": {
+      "description": "Идентификатор документа",
+      "type": "string",
+      "required": true
+    },
+    "ActionId": {
+      "description": "Идентификатор действия",
+      "type": "string",
+      "required": true
+    },
+    "Parameters": {
+      "description": "Список параметров запроса",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "description": "Наименование параметра запроса",
+            "type": "string",
+            "required": true
+          },
+          "Value": {
+            "description": "Привязка данных текущего представления на параметр запроса",
+            "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding",
+            "required": true
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
