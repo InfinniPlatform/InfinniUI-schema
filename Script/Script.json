@@ -1,17 +1,18 @@
-﻿{
-	"id": "Script",
-	"description": "Прикладной скрипт, выполняемый на стороне клиента",
-	"type": "object",
-	"properties": {
-		"Name": {
-			"description": "Наименование функции",
-			"type": "string",
-			"required": true
-		},
-		"Body": {
-			"description": "Тело функции",
-			"type": "string"
-		}
-	},
-	"additionalProperties": false
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/Script.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/Script.json",
+  "description": "Прикладной скрипт, выполняемый на стороне клиента",
+  "type": "object",
+  "properties": {
+    "Name": {
+      "description": "Наименование функции",
+      "type": "string",
+      "required": true
+    },
+    "Body": {
+      "description": "Тело функции",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
 }

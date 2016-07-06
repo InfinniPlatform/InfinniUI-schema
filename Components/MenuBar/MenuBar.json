@@ -1,9 +1,10 @@
-﻿{
-  "id": "MenuBar",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/MenuBar/MenuBar.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/MenuBar/MenuBar.json",
   "description": "Меню",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
   },
   "properties": {
     "ConfigId": {

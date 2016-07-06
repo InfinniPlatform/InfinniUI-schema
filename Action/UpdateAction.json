@@ -1,9 +1,10 @@
-﻿{
-  "id": "UpdateAction",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/UpdateAction.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/UpdateAction.json",
   "description": "Действие обновления источника данных",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
   },
   "properties": {
     "DataSource": {

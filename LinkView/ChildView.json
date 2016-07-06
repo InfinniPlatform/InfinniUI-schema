@@ -1,16 +1,17 @@
-﻿{
-	"id": "ChildView",
-	"description": "Ссылка на дочернее представление",
-	"type": "object",
-	"extends": {
-		"$ref": "http://demo.infinnity.ru:8081/display/MC/BaseLinkView"
-	},
-	"properties": {
-		"Name": {
-			"description": "Наименование ссылки на представление",
-			"type": "string",
-			"required": true
-		}
-	},
-	"additionalProperties": false
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/ChildView.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/ChildView.json",
+  "description": "Ссылка на дочернее представление",
+  "type": "object",
+  "extends": {
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/BaseLinkView.json"
+  },
+  "properties": {
+    "Name": {
+      "description": "Наименование ссылки на представление",
+      "type": "string",
+      "required": true
+    }
+  },
+  "additionalProperties": false
 }

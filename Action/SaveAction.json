@@ -1,9 +1,10 @@
-﻿{
-  "id": "SaveAction",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/SaveAction.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/SaveAction.json",
   "description": "Действие сохранения текущего элемента источника данных",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
   },
   "properties": {
     "CanClose": {

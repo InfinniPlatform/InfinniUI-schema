@@ -1,9 +1,10 @@
-﻿{
-  "id": "TemplateEditMask",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/TemplateEditMask.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/TemplateEditMask.json",
   "description": "Маска ввода строки по шаблону",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/EditMaskBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/EditMaskBase.json"
   },
   "properties": {
     "MaskSaveLiteral": {

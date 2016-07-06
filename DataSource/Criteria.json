@@ -1,11 +1,12 @@
-﻿{
-  "id": "Criteria",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/Criteria.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/Criteria.json",
   "description": "Критерий фильтрации объекта",
   "type": "object",
   "properties": {
     "CriteriaType": {
       "description": "Оператор фильтрации",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/CriteriaType",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/CriteriaType.json",
       "required": true
     },
     "Property": {

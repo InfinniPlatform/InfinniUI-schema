@@ -1,5 +1,6 @@
-﻿{
-  "id": "BaseLinkView",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/BaseLinkView.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/BaseLinkView.json",
   "description": "Базовый тип для ссылки на представление",
   "type": "object",
   "properties": {
@@ -9,7 +10,7 @@
     },
     "OpenMode": {
       "description": "Способ открытия представления",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/OpenMode",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/OpenMode.json",
       "default": "Application"
     },
     "Container": {
@@ -30,7 +31,7 @@
           },
           "Value": {
             "description": "Значение параметра открываемого представления",
-            "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding",
+            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json",
             "required": true
           }
         }

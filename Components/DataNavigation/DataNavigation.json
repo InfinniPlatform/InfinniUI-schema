@@ -1,9 +1,10 @@
-﻿{
-  "id": "DataNavigation",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataNavigation/DataNavigation.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataNavigation/DataNavigation.json",
   "description": "Панель навигации по данным",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/Element"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/Element.json"
   },
   "properties": {
     "AvailablePageSizes": {

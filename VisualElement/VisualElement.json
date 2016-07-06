@@ -1,97 +1,98 @@
-﻿{
-  "id": "VisualElement",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json",
   "description": "Визуальный элемент представления",
   "type": "object",
   "properties": {
     "View": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/View"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/View.json"
     },
     "Button": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/Button"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Button/Button.json"
     },
     "PopupButton": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/PopupButton"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/PopupButton/PopupButton.json"
     },
     "ToolBar": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ToolBar"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ToolBar/ToolBar.json"
     },
     "MenuBar": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/MenuBar"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/MenuBar/MenuBar.json"
     },
     "Label": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/Label"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Label/Label.json"
     },
     "CheckBox": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/CheckBox"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/CheckBox/CheckBox.json"
     },
     "ToggleButton": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ToggleButton"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ToggleButton/ToggleButton.json"
     },
     "TextBox": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/TextBox"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextBox/TextBox.json"
     },
     "NumericBox": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/NumericBox"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/NumericBox/NumericBox.json"
     },
     "DatePicker": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/DatePicker"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DatePicker/DatePicker.json"
     },
     "PasswordBox": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/PasswordBox"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/PasswordBox/PasswordBox.json"
     },
     "Icon": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/Icon"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Icon/Icon.json"
     },
     "ImageBox": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ImageBox"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ImageBox/ImageBox.json"
     },
     "FileBox": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/FileBox"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/FileBox/FileBox.json"
     },
     "ComboBox": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ComboBox"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ComboBox/ComboBox.json"
     },
     "ListBox": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ListBox"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListBox/ListBox.json"
     },
     "RadioGroup": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/RadioGroup"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/RadioGroup/RadioGroup.json"
     },
     "DataGrid": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataGrid"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataGrid/DataGrid.json"
     },
     "TreeView": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/TreeView"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TreeView/TreeView.json"
     },
     "DataNavigation": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataNavigation"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataNavigation/DataNavigation.json"
     },
     "DocumentViewer": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/DocumentViewer"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DocumentViewer/DocumentViewer.json"
     },
     "Panel": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/Panel"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/Panel/Panel.json"
     },
     "TabPanel": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/TabPanel"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabPanel.json"
     },
     "GridPanel": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/GridPanel"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/GridPanel/GridPanel.json"
     },
     "StackPanel": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/StackPanel"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/StackPanel/StackPanel.json"
     },
     "ScrollPanel": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ScrollPanel"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollPanel.json"
     },
     "ViewPanel": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ViewPanel"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ViewPanel/ViewPanel.json"
     },
     "ExtensionPanel": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ExtensionPanel"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ExtensionPanel/ExtensionPanel.json"
     },
     "Frame": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/Frame"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Frame/Frame.json"
     }
   },
   "additionalProperties": false

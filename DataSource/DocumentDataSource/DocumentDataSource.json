@@ -1,9 +1,10 @@
-﻿{
-  "id": "DocumentDataSource",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/DocumentDataSource/DocumentDataSource.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/DocumentDataSource/DocumentDataSource.json",
   "description": "Источник данных представления для документов InfinniPlatform",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/BaseDataSource"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/BaseDataSource.json"
   },
   "properties": {
     "ConfigId": {

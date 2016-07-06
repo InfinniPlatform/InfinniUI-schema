@@ -1,13 +1,14 @@
-﻿{
-  "id": "FileBox",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/FileBox/FileBox.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/FileBox/FileBox.json",
   "description": "Редактор файлов",
   "type": "object",
   "extends": [
     {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/Element"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/Element.json"
     },
     {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditorBase"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/EditorBase/EditorBase.json"
     }
   ],
   "properties": {

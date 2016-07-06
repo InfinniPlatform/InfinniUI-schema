@@ -1,9 +1,10 @@
-﻿{
-  "id": "Panel",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/Panel/Panel.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/Panel/Panel.json",
   "description": "Контейнер в виде прямоугольной области",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
   },
   "properties": {
     "Collapsible": {
@@ -18,27 +19,27 @@
     },
     "HeaderTemplate": {
       "description": "Шаблон отображения заголовка панели",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     },
     "Header": {
       "description": "Заголовок панели",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     },
     "OnExpanding": {
       "description": "Обработчик события о том, что панель разворачивается",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnExpanded": {
       "description": "Обработчик события о том, что панель была развернута",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnCollapsing": {
       "description": "Обработчик события о том, что панель сворачивается",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnCollapsed": {
       "description": "Обработчик события о том, что панель была свернута",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   },
   "additionalProperties": false

@@ -1,9 +1,10 @@
-﻿{
-  "id": "DeleteAction",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/DeleteAction.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/DeleteAction.json",
   "description": "Действие удаления текущего элемента из источника данных",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
   },
   "properties": {
     "Accept": {

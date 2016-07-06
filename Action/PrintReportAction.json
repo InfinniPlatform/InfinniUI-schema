@@ -1,9 +1,10 @@
-﻿{
-  "id": "PrintReportAction",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/PrintReportAction.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/PrintReportAction.json",
   "description": "Действие открытия отчета",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
   },
   "properties": {
     "ConfigId": {
@@ -29,7 +30,7 @@
           },
           "Value": {
             "description": "Привязка данных текущего представления на параметр отчета",
-            "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding",
+            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json",
             "required": true
           }
         }

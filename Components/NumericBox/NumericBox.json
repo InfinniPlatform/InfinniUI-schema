@@ -1,9 +1,10 @@
-﻿{
-  "id": "NumericBox",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/NumericBox/NumericBox.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/NumericBox/NumericBox.json",
   "description": "Редактор чисел",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/TextEditorBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/TextEditorBase.json"
   },
   "properties": {
     "MinValue": {

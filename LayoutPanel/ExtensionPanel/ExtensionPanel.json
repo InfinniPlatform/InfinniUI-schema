@@ -1,9 +1,10 @@
-﻿{
-  "id": "ExtensionPanel",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ExtensionPanel/ExtensionPanel.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ExtensionPanel/ExtensionPanel.json",
   "description": "Контейнер для встраивания внешнего компонента",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
   },
   "properties": {
     "ExtensionName": {
@@ -24,7 +25,7 @@
           },
           "Value": {
             "description": "Значение передаваемого во внешний компонент параметра",
-            "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding",
+            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json",
             "required": true
           }
         }

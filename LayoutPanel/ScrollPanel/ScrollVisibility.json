@@ -1,5 +1,6 @@
-﻿{
-  "id": "ScrollVisibility",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollVisibility.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollVisibility.json",
   "description": "Видимость полосы прокрутки в ScrollPanel",
   "enum": [
     "Auto",

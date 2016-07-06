@@ -1,5 +1,6 @@
-﻿{
-  "id": "TabHeaderLocation",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabHeaderLocation.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabHeaderLocation.json",
   "description": "Расположение закладок в TabPanel",
   "enum": [
     "None",

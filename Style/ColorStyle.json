@@ -1,5 +1,6 @@
-﻿{
-  "id": "ColorStyle",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/ColorStyle.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/ColorStyle.json",
   "description": "Стиль цвета",
   "enum": [
     "Transparent",

@@ -1,5 +1,6 @@
-﻿{
-  "id": "TextStyle",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/TextStyle.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/TextStyle.json",
   "description": "Стиль текста",
   "enum": [
     "Display4",

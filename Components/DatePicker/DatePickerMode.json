@@ -1,5 +1,6 @@
-﻿{
-  "id": "DatePickerMode",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DatePicker/DatePickerMode.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DatePicker/DatePickerMode.json",
   "description": "Режим работы DatePicker",
   "enum": [
     "Date",

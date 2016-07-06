@@ -1,14 +1,15 @@
-﻿{
-  "id": "EditAction",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/EditAction.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/EditAction.json",
   "description": "Действие редактирования текущего элемента источника данных",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
   },
   "properties": {
     "View": {
       "description": "Ссылка на представление",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkView",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json",
       "required": true
     },
     "DataSource": {

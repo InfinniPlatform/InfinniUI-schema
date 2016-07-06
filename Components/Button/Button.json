@@ -1,26 +1,27 @@
-﻿{
-  "id": "Button",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Button/Button.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Button/Button.json",
   "description": "Кнопка",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/Element"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/Element.json"
   },
   "properties": {
     "ContentTemplate": {
       "description": "Шаблон отображения содержимого кнопки",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     },
     "Content": {
       "description": "Содержимое кнопки",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     },
     "Action": {
       "description": "Действие при нажатии на кнопку",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/Action"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/Action.json"
     },
     "OnClick": {
       "description": "Обработчик события нажатия на кнопку",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   },
   "additionalProperties": false

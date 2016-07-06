@@ -1,9 +1,10 @@
-﻿{
-  "id": "ServerAction",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ServerAction.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ServerAction.json",
   "description": "Действие вызова операции на сервере",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
   },
   "properties": {
     "ConfigId": {
@@ -34,7 +35,7 @@
           },
           "Value": {
             "description": "Привязка данных текущего представления на параметр запроса",
-            "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding",
+            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json",
             "required": true
           }
         }

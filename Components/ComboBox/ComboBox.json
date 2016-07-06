@@ -1,9 +1,10 @@
-﻿{
-  "id": "ComboBox",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ComboBox/ComboBox.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ComboBox/ComboBox.json",
   "description": "Выпадающий список",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ListEditorBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/ListEditorBase.json"
   },
   "properties": {
     "LabelText": {

@@ -1,13 +1,14 @@
-﻿{
-  "id": "TextEditorBase",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/TextEditorBase.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/TextEditorBase.json",
   "description": "Базовый тип редакторов текстовых значений",
   "type": "object",
   "extends": [
     {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/Element"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/Element.json"
     },
     {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditorBase"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/EditorBase/EditorBase.json"
     }
   ],
   "properties": {
@@ -26,7 +27,7 @@
     },
     "EditMask": {
       "description": "Маска ввода значения",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditMask"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/EditMask.json"
     }
   }
 }

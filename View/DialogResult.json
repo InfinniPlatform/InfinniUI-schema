@@ -1,9 +1,10 @@
-﻿{
-	"id": "DialogResult",
-	"description": "Результат работы диалогового окна",
-	"enum": [
-		"None",
-		"Accepted",
-		"Canceled"
-	]
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/DialogResult.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/DialogResult.json",
+  "description": "Результат работы диалогового окна",
+  "enum": [
+    "None",
+    "Accepted",
+    "Canceled"
+  ]
 }

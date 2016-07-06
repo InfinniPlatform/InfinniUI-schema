@@ -1,5 +1,6 @@
-﻿{
-  "id": "StackPanelOrientation",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/StackPanel/StackPanelOrientation.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/StackPanel/StackPanelOrientation.json",
   "description": "Ориентация StackPanel",
   "enum": [
     "Horizontal",

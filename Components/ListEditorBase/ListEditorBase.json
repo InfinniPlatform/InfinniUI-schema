@@ -1,13 +1,14 @@
-﻿{
-  "id": "ListEditorBase",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/ListEditorBase.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/ListEditorBase.json",
   "description": "Базовый тип редакторов коллекций данных",
   "type": "object",
   "extends": [
     {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
     },
     {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditorBase"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/EditorBase/EditorBase.json"
     }
   ],
   "properties": {
@@ -18,7 +19,7 @@
     },
     "ValueSelector": {
       "description": "Функция выборки из элемента коллекции значения для выбора",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "ValueProperty": {
       "description": "Свойство элемента коллекции со значением для выбора",
@@ -26,7 +27,7 @@
     },
     "ItemSelector": {
       "description": "Функция выборки из элемента коллеции значения для отображения",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "ItemProperty": {
       "description": "Свойство элемента коллекции со значением для отображения",
@@ -38,12 +39,12 @@
     },
     "GroupItemSort": {
       "description": "Направление операции сортировки групп",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/SortDirection",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/SortDirection.json",
       "default": "None"
     },
     "GroupValueSelector": {
       "description": "Функция выборки из элемента коллекции значения для группировки",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "GroupValueProperty": {
       "description": "Свойство элемента коллекции со значением для группировки",
@@ -51,7 +52,7 @@
     },
     "GroupItemSelector": {
       "description": "Функция выборки из элемента коллеции значения для заголовка группы",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "GroupItemProperty": {
       "description": "Свойство элемента коллекции со значением для заголовка группы",
@@ -63,11 +64,11 @@
     },
     "GroupItemTemplate": {
       "description": "Шаблон отображения элемента коллекции для заголовка группы",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     },
     "OnSelectedItemChanged": {
       "description": "Обработчик события о том, что элемент был выделен",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   }
 }

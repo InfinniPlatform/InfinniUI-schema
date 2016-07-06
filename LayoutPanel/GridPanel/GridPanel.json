@@ -1,9 +1,10 @@
-﻿{
-  "id": "GridPanel",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/GridPanel/GridPanel.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/GridPanel/GridPanel.json",
   "description": "Контейнер в виде сетки из столбцов и строк",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
   },
   "properties": {},
   "additionalProperties": false

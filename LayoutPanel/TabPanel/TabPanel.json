@@ -1,28 +1,29 @@
-﻿{
-  "id": "TabPanel",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabPanel.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabPanel.json",
   "description": "Контейнер в виде набора закладок",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
   },
   "properties": {
     "HeaderLocation": {
       "description": "Расположение закладок",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/TabHeaderLocation",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabHeaderLocation.json",
       "default": "Top"
     },
     "HeaderOrientation": {
       "description": "Ориентация закладок",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/TabHeaderOrientation",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabHeaderOrientation.json",
       "default": "Horizontal"
     },
     "HeaderTemplate": {
       "description": "Шаблон отображения закладок дочерних элементов панели",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     },
     "OnSelectedItemChanged": {
       "description": "Обработчик события о том, что элемент был выделен",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   },
   "additionalProperties": false

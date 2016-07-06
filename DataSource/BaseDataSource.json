@@ -1,5 +1,6 @@
-﻿{
-  "id": "BaseDataSource",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/BaseDataSource.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/BaseDataSource.json",
   "description": "Базовый тип источников данных представления",
   "type": "object",
   "properties": {
@@ -32,64 +33,56 @@
       "description": "Фильтр по умолчанию",
       "type": "array",
       "items": {
-        "$ref": "http://demo.infinnity.ru:8081/display/MC/Criteria"
+        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/Criteria.json"
       }
-    },
-    "ValidationErrors": {
-      "description": "Оператор проверки модели данных документа на ошибки",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/BooleanValidator"
-    },
-    "ValidationWarnings": {
-      "description": "Оператор проверки модели данных документа на предупреждения",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/BooleanValidator"
     },
     "OnPageNumberChanged": {
       "description": "Обработчик события о том, что номер страницы изменился",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnPageSizeChanged": {
       "description": "Обработчик события о том, что размер страницы изменился",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnFilterChanged": {
       "description": "Обработчик события о том, что фильтр элементов изменился",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnSelectedItemChanged": {
       "description": "Обработчик события о том, что выделенный элемент изменился",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnPropertyChanged": {
       "description": "Обработчик события о том, что одно из свойств изменилось",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnItemSaved": {
       "description": "Обработчик события о том, что элемент сохранен",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnItemDeleted": {
       "description": "Обработчик события о том, что элемент удален",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnItemsUpdated": {
       "description": "Обработчик события о том, что список элементов обновлен",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnItemsAdded": {
       "description": "Обработчик события о том, что в список элементов добавлены новые",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnErrorValidator": {
       "description": "Обработчик события о том, что проверка на ошибки завершена",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnWarningValidator": {
       "description": "Обработчик события о том, что проверка на предупреждения завершена",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnError": {
       "description": "Обработчик события о том, что произошла ошибка",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   }
 }

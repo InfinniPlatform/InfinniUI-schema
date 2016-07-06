@@ -1,19 +1,20 @@
-﻿{
-  "id": "AddItemAction",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/AddItemAction.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/AddItemAction.json",
   "description": "Действие добавления элемента в коллекцию источника данных",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
   },
   "properties": {
     "View": {
       "description": "Ссылка на представление",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkView",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json",
       "required": true
     },
     "Items": {
       "description": "Привязка данных для списка",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json",
       "required": true
     }
   },

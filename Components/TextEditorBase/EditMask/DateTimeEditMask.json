@@ -1,9 +1,10 @@
-﻿{
-  "id": "DateTimeEditMask",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/DateTimeEditMask.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/DateTimeEditMask.json",
   "description": "Маска ввода даты и времени",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/EditMaskBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/EditMaskBase.json"
   },
   "properties": {},
   "additionalProperties": false

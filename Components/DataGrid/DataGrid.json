@@ -1,16 +1,17 @@
-﻿{
-  "id": "DataGrid",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataGrid/DataGrid.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataGrid/DataGrid.json",
   "description": "Таблица",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ListEditorBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/ListEditorBase.json"
   },
   "properties": {
     "Columns": {
       "description": "Список колонок таблицы",
       "type": "array",
       "items": {
-        "$ref": "http://demo.infinnity.ru:8081/display/MC/DataGridColumn"
+        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataGrid/DataGridColumn.json"
       }
     }
   }

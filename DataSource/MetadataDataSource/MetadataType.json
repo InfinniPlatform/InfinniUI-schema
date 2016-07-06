@@ -1,5 +1,6 @@
-﻿{
-  "id": "MetadataType",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/MetadataDataSource/MetadataType.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/MetadataDataSource/MetadataType.json",
   "description": "Тип метаданных",
   "enum": [
     "Solution",

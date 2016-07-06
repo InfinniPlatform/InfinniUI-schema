@@ -1,14 +1,15 @@
-﻿{
-  "id": "OpenAction",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/OpenAction.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/OpenAction.json",
   "description": "Действие открытия представления",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
   },
   "properties": {
     "View": {
       "description": "Ссылка на представление",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkView",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json",
       "required": true
     }
   },

@@ -1,14 +1,15 @@
-﻿{
-  "id": "TreeView",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TreeView/TreeView.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TreeView/TreeView.json",
   "description": "Иерархический список",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ListEditorBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/ListEditorBase.json"
   },
   "properties": {
     "KeySelector": {
       "description": "Функция выборки из элемента коллекции идентификатора",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "KeyProperty": {
       "description": "Свойство элемента коллекции с идентификатором",
@@ -17,7 +18,7 @@
     },
     "ParentSelector": {
       "description": "Функция выборки из элемента коллекции идентификатора родителя",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "ParentProperty": {
       "description": "Свойство элемента коллекции с идентификатором родителя",

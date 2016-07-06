@@ -1,19 +1,20 @@
-﻿{
-  "id": "EditMask",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/EditMask.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/EditMask.json",
   "description": "Маска ввода данных",
   "type": "object",
   "properties": {
     "NumberEditMask": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/NumberEditMask"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/NumberEditMask.json"
     },
     "DateTimeEditMask": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/DateTimeEditMask"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/DateTimeEditMask.json"
     },
     "TemplateEditMask": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/TemplateEditMask"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/TemplateEditMask.json"
     },
     "RegexEditMask": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/RegexEditMask"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/RegexEditMask.json"
     }
   }
 }

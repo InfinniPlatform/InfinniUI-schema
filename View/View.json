@@ -1,9 +1,10 @@
-﻿{
-  "id": "View",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/View.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/View.json",
   "description": "Визуальное представление",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
   },
   "properties": {
     "Icon": {
@@ -14,45 +15,45 @@
       "description": "Список скриптов представления",
       "type": "array",
       "items": {
-        "$ref": "http://demo.infinnity.ru:8081/display/MC/Script"
+        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/Script.json"
       }
     },
     "Parameters": {
       "description": "Список источников данных представления",
       "type": "array",
       "items": {
-        "$ref": "http://demo.infinnity.ru:8081/display/MC/Parameter"
+        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/Parameter.json"
       }
     },
     "DataSources": {
       "description": "Список источников данных представления",
       "type": "array",
       "items": {
-        "$ref": "http://demo.infinnity.ru:8081/display/MC/DataSource"
+        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/DataSource.json"
       }
     },
     "ChildViews": {
       "description": "Список ссылок на дочерние представления",
       "type": "array",
       "items": {
-        "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkViewItem"
+        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/LinkViewItem.json"
       }
     },
     "OnOpening": {
       "description": "Обработчик события о том, что представление открывается",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnOpened": {
       "description": "Обработчик события о том, что представление было открыто",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnClosing": {
       "description": "Обработчик события о том, что представление закрывается",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnClosed": {
       "description": "Обработчик события о том, что представление было закрыто",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   },
   "additionalProperties": false

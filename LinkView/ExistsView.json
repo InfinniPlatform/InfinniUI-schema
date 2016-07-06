@@ -1,26 +1,27 @@
-﻿{
-	"id": "ExistsView",
-	"description": "Ссылка на существующее представление",
-	"type": "object",
-	"extends": {
-		"$ref": "http://demo.infinnity.ru:8081/display/MC/BaseLinkView"
-	},
-	"properties": {
-		"ConfigId": {
-			"description": "Идентификатор конфигурации",
-			"type": "string",
-			"required": true
-		},
-		"DocumentId": {
-			"description": "Идентификатор документа",
-			"type": "string",
-			"required": true
-		},
-		"ViewId": {
-			"description": "Идентификатор представления",
-			"type": "string",
-			"required": true
-		}
-	},
-	"additionalProperties": false
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/ExistsView.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/ExistsView.json",
+  "description": "Ссылка на существующее представление",
+  "type": "object",
+  "extends": {
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/BaseLinkView.json"
+  },
+  "properties": {
+    "ConfigId": {
+      "description": "Идентификатор конфигурации",
+      "type": "string",
+      "required": true
+    },
+    "DocumentId": {
+      "description": "Идентификатор документа",
+      "type": "string",
+      "required": true
+    },
+    "ViewId": {
+      "description": "Идентификатор представления",
+      "type": "string",
+      "required": true
+    }
+  },
+  "additionalProperties": false
 }

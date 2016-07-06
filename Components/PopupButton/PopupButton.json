@@ -1,13 +1,14 @@
-﻿{
-  "id": "PopupButton",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/PopupButton/PopupButton.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/PopupButton/PopupButton.json",
   "description": "Кнопка со всплывающим контейнером",
   "type": "object",
   "extends": [
     {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/Button"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Button/Button.json"
     },
     {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
     }
   ],
   "properties": {},

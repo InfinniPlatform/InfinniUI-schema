@@ -1,52 +1,53 @@
-﻿{
-  "id": "Action",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/Action.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/Action.json",
   "description": "Действие, которое может быть вызвано из визуального представления",
   "type": "object",
   "properties": {
     "AcceptAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/AcceptAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/AcceptAction.json"
     },
     "CancelAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/CancelAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/CancelAction.json"
     },
     "AddAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/AddAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/AddAction.json"
     },
     "AddItemAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/AddItemAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/AddItemAction.json"
     },
     "EditAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/EditAction.json"
     },
     "EditItemAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/EditItemAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/EditItemAction.json"
     },
     "DeleteAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/DeleteAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/DeleteAction.json"
     },
     "DeleteItemAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/DeleteItemAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/DeleteItemAction.json"
     },
     "SaveAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/SaveAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/SaveAction.json"
     },
     "UpdateAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/UpdateAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/UpdateAction.json"
     },
     "OpenAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/OpenAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/OpenAction.json"
     },
     "SelectAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/SelectAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/SelectAction.json"
     },
     "PrintReportAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/PrintReportAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/PrintReportAction.json"
     },
     "PrintViewAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/PrintViewAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/PrintViewAction.json"
     },
     "ServerAction": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ServerAction"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ServerAction.json"
     }
   },
   "additionalProperties": false

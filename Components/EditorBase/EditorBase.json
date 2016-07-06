@@ -1,11 +1,12 @@
-﻿{
-  "id": "EditorBase",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/EditorBase/EditorBase.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/EditorBase/EditorBase.json",
   "description": "Интерфейс редакторов значений",
   "type": "object",
   "properties": {
     "Value": {
       "description": "Значение",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
     },
     "HintText": {
       "description": "Текст с подсказкой для ввода",
@@ -21,11 +22,11 @@
     },
     "OnValueChanging": {
       "description": "Обработчик события о том, что значение изменяется",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnValueChanged": {
       "description": "Обработчик события о том, что значение было изменено",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   },
   "additionalProperties": false

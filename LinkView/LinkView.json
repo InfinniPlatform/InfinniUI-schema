@@ -1,19 +1,20 @@
-﻿{
-  "id": "LinkView",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json",
   "description": "Контейнер для описания ссылки на представление",
   "type": "object",
   "properties": {
     "ExistsView": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ExistsView"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/ExistsView.json"
     },
     "AutoView": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/AutoView"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/AutoView.json"
     },
     "InlineView": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/InlineView"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/InlineView.json"
     },
     "ChildView": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ChildView"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/ChildView.json"
     }
   },
   "additionalProperties": false

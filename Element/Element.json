@@ -1,5 +1,6 @@
-﻿{
-  "id": "Element",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/Element.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/Element.json",
   "description": "Базовый тип для визуальных элементов представления",
   "type": "object",
   "properties": {
@@ -28,35 +29,35 @@
     },
     "VerticalAlignment": {
       "description": "Вертикальное выравнивание в родительском элементе",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ElementVerticalAlignment",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/ElementVerticalAlignment.json",
       "default": "Stretch"
     },
     "HorizontalAlignment": {
       "description": "Горизонтальное выравнивание в родительском элементе",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ElementHorizontalAlignment",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/ElementHorizontalAlignment.json",
       "default": "Stretch"
     },
     "TextHorizontalAlignment": {
       "description": "Горизонтальное выравнивание текста внутри элемента",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/TextHorizontalAlignment",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/TextHorizontalAlignment.json",
       "default": "Left"
     },
     "TextVerticalAlignment": {
       "description": "Вертикальное выравнивание текста внутри элемента",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/TextVerticalAlignment",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/TextVerticalAlignment.json",
       "default": "Center"
     },
     "TextStyle": {
       "description": "Стиль текста элемента",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/TextStyle"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/TextStyle.json"
     },
     "Foreground": {
       "description": "Цвет текста элемента",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ColorStyle"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/ColorStyle.json"
     },
     "Background": {
       "description": "Цвет фона элемента",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ColorStyle"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/ColorStyle.json"
     },
     "Texture": {
       "description": "Текстура элемента",
@@ -64,59 +65,59 @@
     },
     "ToolTip": {
       "description": "Подсказка элемента",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     },
     "OnLoaded": {
       "description": "Обработчик события о том, что элемент был загружен",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnGotFocus": {
       "description": "Обработчик события о том, что элемент получил фокус ввода",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnLostFocus": {
       "description": "Обработчик события о том, что элемент потерял фокус ввода",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnMouseDoubleClick": {
       "description": "Обработчик события о том, что по элементу сделали двойной клик мыши",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnMouseDown": {
       "description": "Обработчик события о том, что на элементе нажали кнопку мыши",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnMouseUp": {
       "description": "Обработчик события о том, что на элементе отпустили кнопку мыши",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnMouseWheel": {
       "description": "Обработчик события о том, что на элементе прокрутили колесо мыши",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnMouseEnter": {
       "description": "Обработчик события о том, что указатель мыши вошел в границы элемента",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnMouseLeave": {
       "description": "Обработчик события о том, что указатель мыши покинул границы элемента",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnMouseMove": {
       "description": "Обработчик события о том, что указатель мыши двигался внутри элемента",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnKeyDown": {
       "description": "Обработчик события о том, что на элементе нажали клавишу клавиатуры",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnKeyUp": {
       "description": "Обработчик события о том, что на элементе отпустили клавишу клавиатуры",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnPropertyChanged": {
       "description": "Обработчик события о том, что одно из свойств изменилось",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   },
   "additionalProperties": false

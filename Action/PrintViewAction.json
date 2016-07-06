@@ -1,9 +1,10 @@
-﻿{
-  "id": "PrintViewAction",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/PrintViewAction.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/PrintViewAction.json",
   "description": "Действие открытия печатного представления",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
   },
   "properties": {
     "PrintViewId": {
@@ -12,7 +13,7 @@
     },
     "PrintViewType": {
       "description": "Тип печатного представления",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/PrintViewType",
+      "type": "string",
       "default": "ObjectView"
     },
     "DataSource": {

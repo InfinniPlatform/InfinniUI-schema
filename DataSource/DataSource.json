@@ -1,16 +1,17 @@
-﻿{
-  "id": "DataSource",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/DataSource.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/DataSource.json",
   "description": "Контейнер для описания источника данных представления",
   "type": "object",
   "properties": {
     "ObjectDataSource": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ObjectDataSource"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/ObjectDataSource/ObjectDataSource.json"
     },
     "DocumentDataSource": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/DocumentDataSource"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/DocumentDataSource/DocumentDataSource.json"
     },
     "MetadataDataSource": {
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/MetadataDataSource"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/MetadataDataSource/MetadataDataSource.json"
     }
   },
   "additionalProperties": false

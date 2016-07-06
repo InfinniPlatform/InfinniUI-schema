@@ -1,9 +1,10 @@
-﻿{
-  "id": "NumberEditMask",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/NumberEditMask.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/NumberEditMask.json",
   "description": "Маска ввода числового значения",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/EditMaskBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/EditMaskBase.json"
   },
   "properties": {},
   "additionalProperties": false

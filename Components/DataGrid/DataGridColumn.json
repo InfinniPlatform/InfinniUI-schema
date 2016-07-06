@@ -1,19 +1,20 @@
-﻿{
-  "id": "DataGridColumn",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataGrid/DataGridColumn.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataGrid/DataGridColumn.json",
   "description": "Колонка DataGrid",
   "type": "object",
   "properties": {
     "HeaderTemplate": {
       "description": "Шаблон отображения заголовка колонки",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     },
     "Header": {
       "description": "Заголовок колонки",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     },
     "CellSelector": {
       "description": "Функция выборки из элемента коллеции значения для ячейки",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "CellProperty": {
       "description": "Свойство элемента коллекции со значением для ячейки",
@@ -25,7 +26,7 @@
     },
     "CellTemplate": {
       "description": "Шаблон отображения элемента коллекции для ячейки",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/VisualElement"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     }
   },
   "additionalProperties": false

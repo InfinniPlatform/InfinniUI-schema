@@ -1,5 +1,6 @@
-﻿{
-  "id": "OpenMode",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/OpenMode.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/OpenMode.json",
   "description": "Способ открытия представления",
   "enum": [
     "Application",

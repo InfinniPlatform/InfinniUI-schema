@@ -1,5 +1,6 @@
-﻿{
-  "id": "Parameter",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/Parameter.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/Parameter.json",
   "description": "Параметр представления",
   "type": "object",
   "properties": {
@@ -14,7 +15,7 @@
     },
     "OnPropertyChanged": {
       "description": "Обработчик события о том, что одно из свойств изменилось",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkScript"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   },
   "additionalProperties": false

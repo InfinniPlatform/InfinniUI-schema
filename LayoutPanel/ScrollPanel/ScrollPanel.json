@@ -1,18 +1,19 @@
-﻿{
-  "id": "ScrollPanel",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollPanel.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollPanel.json",
   "description": "Контейнер в виде прокручиваемой области",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/Container"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
   },
   "properties": {
     "HorizontalScroll": {
       "description": "Видимость полосы прокрутки по горизонтали",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ScrollVisibility"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollVisibility.json"
     },
     "VerticalScroll": {
       "description": "Видимость полосы прокрутки по вертикали",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/ScrollVisibility"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollVisibility.json"
     }
   },
   "additionalProperties": false

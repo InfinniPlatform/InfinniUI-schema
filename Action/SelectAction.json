@@ -1,22 +1,23 @@
-﻿{
-  "id": "SelectAction",
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/SelectAction.json",
+  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/SelectAction.json",
   "description": "Действие открытия представления для выбора данных",
   "type": "object",
   "extends": {
-    "$ref": "http://demo.infinnity.ru:8081/display/MC/ActionBase"
+    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
   },
   "properties": {
     "View": {
       "description": "Ссылка на представление",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/LinkView"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json"
     },
     "SourceValue": {
       "description": "Источник выбранного значения",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
     },
     "DestinationValue": {
       "description": "Приемник выбранного значения",
-      "$ref": "http://demo.infinnity.ru:8081/display/MC/DataBinding"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
     }
   },
   "additionalProperties": false
