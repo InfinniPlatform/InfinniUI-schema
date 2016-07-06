@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ToggleButton/ToggleButton.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ToggleButton/ToggleButton.json",
   "description": "Переключатель в виде кнопки",
   "type": "object",
   "extends": [

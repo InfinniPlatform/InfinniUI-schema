@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Label/Label.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Label/Label.json",
   "description": "Текстовая метка",
   "type": "object",
   "extends": [

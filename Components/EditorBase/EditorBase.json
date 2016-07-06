@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/EditorBase/EditorBase.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/EditorBase/EditorBase.json",
   "description": "Интерфейс редакторов значений",
   "type": "object",
   "properties": {

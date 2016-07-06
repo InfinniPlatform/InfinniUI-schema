@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/ExistsView.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/ExistsView.json",
   "description": "Ссылка на существующее представление",
   "type": "object",
   "extends": {

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/SelectAction.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/SelectAction.json",
   "description": "Действие открытия представления для выбора данных",
   "type": "object",
   "extends": {

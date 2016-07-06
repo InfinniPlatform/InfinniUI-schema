@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/RadioGroup/RadioGroup.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/RadioGroup/RadioGroup.json",
   "description": "Список радиокнопок",
   "type": "object",
   "extends": {

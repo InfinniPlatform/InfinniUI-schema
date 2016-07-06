@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json",
   "description": "Базовый тип для предопределенных действий",
   "type": "object",
   "properties": {}

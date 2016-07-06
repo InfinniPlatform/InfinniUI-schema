@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/Script.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/Script.json",
   "description": "Прикладной скрипт, выполняемый на стороне клиента",
   "type": "object",
   "properties": {

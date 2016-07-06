@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/StackPanel/StackPanel.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/StackPanel/StackPanel.json",
   "description": "Контейнер в виде стека элементов",
   "type": "object",
   "extends": {

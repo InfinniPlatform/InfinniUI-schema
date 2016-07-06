@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/PopupButton/PopupButton.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/PopupButton/PopupButton.json",
   "description": "Кнопка со всплывающим контейнером",
   "type": "object",
   "extends": [

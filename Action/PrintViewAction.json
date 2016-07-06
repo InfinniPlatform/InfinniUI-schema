@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/PrintViewAction.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/PrintViewAction.json",
   "description": "Действие открытия печатного представления",
   "type": "object",
   "extends": {

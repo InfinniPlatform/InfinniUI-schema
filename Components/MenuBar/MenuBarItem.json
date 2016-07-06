@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/MenuBar/MenuBarItem.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/MenuBar/MenuBarItem.json",
   "description": "Пункт MenuBar",
   "type": "object",
   "extends": [

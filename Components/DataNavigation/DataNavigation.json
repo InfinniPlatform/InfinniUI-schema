@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataNavigation/DataNavigation.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataNavigation/DataNavigation.json",
   "description": "Панель навигации по данным",
   "type": "object",
   "extends": {

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/AddAction.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/AddAction.json",
   "description": "Действие добавления элемента в источник данных",
   "type": "object",
   "extends": {

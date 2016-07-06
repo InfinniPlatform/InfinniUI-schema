@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/PrintReportAction.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/PrintReportAction.json",
   "description": "Действие открытия отчета",
   "type": "object",
   "extends": {

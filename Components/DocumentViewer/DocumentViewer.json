@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DocumentViewer/DocumentViewer.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DocumentViewer/DocumentViewer.json",
   "description": "Элемент для отображения печатного представления",
   "type": "object",
   "extends": {

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ComboBox/ComboBox.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ComboBox/ComboBox.json",
   "description": "Выпадающий список",
   "type": "object",
   "extends": {

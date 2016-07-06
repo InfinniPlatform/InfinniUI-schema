@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ImageBox/ImageBox.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ImageBox/ImageBox.json",
   "description": "Редактор изображений",
   "type": "object",
   "extends": [

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/DeleteAction.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/DeleteAction.json",
   "description": "Действие удаления текущего элемента из источника данных",
   "type": "object",
   "extends": {

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/NumericBox/NumericBox.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/NumericBox/NumericBox.json",
   "description": "Редактор чисел",
   "type": "object",
   "extends": {

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/MenuBar/MenuBar.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/MenuBar/MenuBar.json",
   "description": "Меню",
   "type": "object",
   "extends": {

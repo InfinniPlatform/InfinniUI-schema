@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabPage.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabPage.json",
   "description": "Страница панели закладок TabPanel",
   "type": "object",
   "extends": {

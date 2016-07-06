@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/TextVerticalAlignment.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/TextVerticalAlignment.json",
   "description": "Вертикальное выравнивание текста в элементе",
   "enum": [
     "Top",

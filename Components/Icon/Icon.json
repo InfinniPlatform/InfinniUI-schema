@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Icon/Icon.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Icon/Icon.json",
   "description": "Элемент для отображения изображения",
   "type": "object",
   "extends": [

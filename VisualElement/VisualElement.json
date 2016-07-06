@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json",
   "description": "Визуальный элемент представления",
   "type": "object",
   "properties": {

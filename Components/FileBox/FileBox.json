@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/FileBox/FileBox.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/FileBox/FileBox.json",
   "description": "Редактор файлов",
   "type": "object",
   "extends": [

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/SaveAction.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/SaveAction.json",
   "description": "Действие сохранения текущего элемента источника данных",
   "type": "object",
   "extends": {

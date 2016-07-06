@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/Action.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/Action.json",
   "description": "Действие, которое может быть вызвано из визуального представления",
   "type": "object",
   "properties": {

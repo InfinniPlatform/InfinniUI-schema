@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/EditMaskBase.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/EditMaskBase.json",
   "description": "Базовый тип маски ввода данных",
   "type": "object",
   "properties": {

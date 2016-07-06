@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Frame/Frame.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Frame/Frame.json",
   "description": "Элемент для отображения Web-страницы",
   "type": "object",
   "extends": [

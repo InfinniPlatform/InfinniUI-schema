@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DatePicker/DatePicker.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DatePicker/DatePicker.json",
   "description": "Редактор даты и времени",
   "type": "object",
   "extends": {

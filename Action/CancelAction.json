@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/CancelAction.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/CancelAction.json",
   "description": "Действие закрытия представления со статусом отмены",
   "type": "object",
   "extends": {

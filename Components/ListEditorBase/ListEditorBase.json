@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/ListEditorBase.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/ListEditorBase.json",
   "description": "Базовый тип редакторов коллекций данных",
   "type": "object",
   "extends": [

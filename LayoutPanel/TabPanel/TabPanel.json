@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabPanel.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabPanel.json",
   "description": "Контейнер в виде набора закладок",
   "type": "object",
   "extends": {

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/Panel/Panel.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/Panel/Panel.json",
   "description": "Контейнер в виде прямоугольной области",
   "type": "object",
   "extends": {

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/LinkViewItem.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/LinkViewItem.json",
   "description": "Именованный элемент, хранящий ссылку на представление",
   "type": "object",
   "properties": {

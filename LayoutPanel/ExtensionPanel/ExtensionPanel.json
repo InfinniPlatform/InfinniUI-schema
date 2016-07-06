@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ExtensionPanel/ExtensionPanel.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ExtensionPanel/ExtensionPanel.json",
   "description": "Контейнер для встраивания внешнего компонента",
   "type": "object",
   "extends": {

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/GridPanel/GridPanel.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/GridPanel/GridPanel.json",
   "description": "Контейнер в виде сетки из столбцов и строк",
   "type": "object",
   "extends": {

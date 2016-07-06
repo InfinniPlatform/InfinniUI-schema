@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TreeView/TreeView.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TreeView/TreeView.json",
   "description": "Иерархический список",
   "type": "object",
   "extends": {

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/TextHorizontalAlignment.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/TextHorizontalAlignment.json",
   "description": "Горизонтальное выравнивание текста в элементе",
   "enum": [
     "Left",

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/TextEditorBase.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/TextEditorBase.json",
   "description": "Базовый тип редакторов текстовых значений",
   "type": "object",
   "extends": [

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/RegexEditMask.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/RegexEditMask.json",
   "description": "Маска ввода строки в формате регулярного выражения",
   "type": "object",
   "extends": {

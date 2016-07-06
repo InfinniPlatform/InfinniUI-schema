@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/MetadataDataSource/MetadataDataSource.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/MetadataDataSource/MetadataDataSource.json",
   "description": "Источник данных представления для метаданных InfinniPlatform",
   "type": "object",
   "extends": {

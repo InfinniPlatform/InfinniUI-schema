@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataGrid/DataGrid.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataGrid/DataGrid.json",
   "description": "Таблица",
   "type": "object",
   "extends": {

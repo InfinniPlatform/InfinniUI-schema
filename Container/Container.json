@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json",
   "description": "Контейнер визуальных элементов представления",
   "type": "object",
   "extends": {

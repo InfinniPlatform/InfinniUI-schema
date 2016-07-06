@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollPanel.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollPanel.json",
   "description": "Контейнер в виде прокручиваемой области",
   "type": "object",
   "extends": {

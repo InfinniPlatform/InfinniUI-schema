@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/CheckBox/CheckBox.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/CheckBox/CheckBox.json",
   "description": "Переключатель в виде флажка",
   "type": "object",
   "extends": [

@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ToolBar/ToolBar.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ToolBar/ToolBar.json",
   "description": "Панель инструментов",
   "type": "object",
   "extends": {

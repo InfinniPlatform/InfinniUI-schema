@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/DataSource.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/DataSource.json",
   "description": "Контейнер для описания источника данных представления",
   "type": "object",
   "properties": {

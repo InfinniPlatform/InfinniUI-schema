@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/EditItemAction.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/EditItemAction.json",
   "description": "Действие редактирования текущего элемента коллекции источника данных",
   "type": "object",
   "extends": {

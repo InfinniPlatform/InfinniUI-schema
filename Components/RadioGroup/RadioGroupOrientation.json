@@ -1,6 +1,5 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/RadioGroup/RadioGroupOrientation.json",
-  "$schema": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/RadioGroup/RadioGroupOrientation.json",
   "description": "Ориентация RadioGroup",
   "enum": [
     "Horizontal",
