@@ -1,0 +1,1 @@
+.files\JSchemaValidator\Assemblies\JSchemaValidator.exe "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/" "C:\Projects\InfinniUI-schema"

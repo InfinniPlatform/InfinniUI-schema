@@ -1,0 +1,11 @@
+.vs/
+
+[Bb]in/
+[Oo]bj/
+
+!.files/JSchemaValidator/Assemblies/*.exe
+!.files/JSchemaValidator/Assemblies/*.dll
+.files/JSchemaValidator/Assemblies/*.vshost.exe
+.files/JSchemaValidator/Assemblies/*.manifest
+.files/JSchemaValidator/Assemblies/*.xml
+.files/JSchemaValidator/packages/
