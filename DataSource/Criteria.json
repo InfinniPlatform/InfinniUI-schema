@@ -6,8 +6,7 @@
   "properties": {
     "CriteriaType": {
       "description": "Оператор фильтрации",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/CriteriaType.json",
-      "required": true
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/CriteriaType.json"
     },
     "Property": {
       "description": "Свойство объекта",
