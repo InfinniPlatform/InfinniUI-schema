@@ -28,13 +28,6 @@
       "type": "integer",
       "default": 10
     },
-    "Query": {
-      "description": "Фильтр по умолчанию",
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/Criteria.json"
-      }
-    },
     "OnPageNumberChanged": {
       "description": "Обработчик события о том, что номер страницы изменился",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"

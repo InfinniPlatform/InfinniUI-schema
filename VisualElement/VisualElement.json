@@ -55,9 +55,6 @@
     "ListBox": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListBox/ListBox.json"
     },
-    "RadioGroup": {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/RadioGroup/RadioGroup.json"
-    },
     "DataGrid": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataGrid/DataGrid.json"
     },
