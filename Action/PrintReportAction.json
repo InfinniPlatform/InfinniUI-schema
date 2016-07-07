@@ -11,13 +11,11 @@
   "properties": {
     "ConfigId": {
       "description": "Идентификатор конфигурации",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "ReportId": {
       "description": "Идентификатор отчета",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "Parameters": {
       "description": "Список значений параметров отчета",
@@ -27,16 +25,22 @@
         "properties": {
           "Name": {
             "description": "Наименование параметра отчета",
-            "type": "string",
-            "required": true
+            "type": "string"
           },
           "Value": {
             "description": "Привязка данных текущего представления на параметр отчета",
-            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json",
-            "required": true
+            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
           }
-        }
+        },
+        "required": [
+          "Name",
+          "Value"
+        ]
       }
     }
-  }
+  },
+  "required": [
+    "ConfigId",
+    "ReportId"
+  ]
 }

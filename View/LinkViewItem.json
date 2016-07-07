@@ -6,18 +6,20 @@
   "properties": {
     "Name": {
       "description": "Наименование ссылки на представление",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "LinkView": {
       "description": "Значение ссылки на представление",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json",
-      "required": true
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json"
     },
     "Resolve": {
       "description": "Разрешать ссылку",
       "type": "boolean",
       "default": false
     }
-  }
+  },
+  "required": [
+    "Name",
+    "LinkView"
+  ]
 }

@@ -20,8 +20,10 @@
     },
     "DataSource": {
       "description": "Источник данных",
-      "type": "string",
-      "required": true
+      "type": "string"
     }
-  }
+  },
+  "required": [
+    "DataSource"
+  ]
 }

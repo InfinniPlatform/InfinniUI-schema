@@ -16,8 +16,10 @@
     },
     "Items": {
       "description": "Привязка данных для списка",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json",
-      "required": true
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
     }
-  }
+  },
+  "required": [
+    "Items"
+  ]
 }

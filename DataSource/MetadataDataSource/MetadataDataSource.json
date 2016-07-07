@@ -11,18 +11,20 @@
   "properties": {
     "MetadataType": {
       "description": "Тип метаданных",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/MetadataDataSource/MetadataType.json",
-      "required": true
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/MetadataDataSource/MetadataType.json"
     },
     "ConfigId": {
       "description": "Идентификатор конфигурации",
-      "type": "string",
-      "required": false
+      "type": "string"
     },
     "DocumentId": {
       "description": "Идентификатор документа",
-      "type": "string",
-      "required": false
+      "type": "string"
     }
-  }
+  },
+  "required": [
+    "MetadataType",
+    "ConfigId",
+    "DocumentId"
+  ]
 }

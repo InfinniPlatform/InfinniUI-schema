@@ -6,16 +6,17 @@
   "properties": {
     "Name": {
       "description": "Наименование параметра",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "Value": {
-      "description": "Значение параметра",
-      "type": "any"
+      "description": "Значение параметра"
     },
     "OnPropertyChanged": {
       "description": "Обработчик события о том, что одно из свойств изменилось",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
-  }
+  },
+  "required": [
+    "Name"
+  ]
 }

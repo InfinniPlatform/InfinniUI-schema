@@ -11,13 +11,15 @@
   "properties": {
     "View": {
       "description": "Ссылка на представление",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json",
-      "required": true
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json"
     },
     "DataSource": {
       "description": "Источник данных",
-      "type": "string",
-      "required": true
+      "type": "string"
     }
-  }
+  },
+  "required": [
+    "View",
+    "DataSource"
+  ]
 }

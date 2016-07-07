@@ -11,18 +11,20 @@
   "properties": {
     "ConfigId": {
       "description": "Идентификатор конфигурации",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "DocumentId": {
       "description": "Идентификатор документа",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "ViewId": {
       "description": "Идентификатор представления",
-      "type": "string",
-      "required": true
+      "type": "string"
     }
-  }
+  },
+  "required": [
+    "ConfigId",
+    "DocumentId",
+    "ViewId"
+  ]
 }

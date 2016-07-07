@@ -11,18 +11,15 @@
   "properties": {
     "ConfigId": {
       "description": "Идентификатор конфигурации",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "DocumentId": {
       "description": "Идентификатор документа",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "ActionId": {
       "description": "Идентификатор действия",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "Parameters": {
       "description": "Список параметров запроса",
@@ -32,16 +29,23 @@
         "properties": {
           "Name": {
             "description": "Наименование параметра запроса",
-            "type": "string",
-            "required": true
+            "type": "string"
           },
           "Value": {
             "description": "Привязка данных текущего представления на параметр запроса",
-            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json",
-            "required": true
+            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
           }
-        }
+        },
+        "required": [
+          "Name",
+          "Value"
+        ]
       }
     }
-  }
+  },
+  "required": [
+    "ConfigId",
+    "DocumentId",
+    "ActionId"
+  ]
 }

@@ -6,8 +6,10 @@
   "properties": {
     "Mask": {
       "description": "Маска ввода данных",
-      "type": "string",
-      "required": true
+      "type": "string"
     }
-  }
+  },
+  "required": [
+    "Mask"
+  ]
 }

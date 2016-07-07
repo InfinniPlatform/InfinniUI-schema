@@ -11,13 +11,11 @@
   "properties": {
     "ConfigId": {
       "description": "Идентификатор конфигурации",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "DocumentId": {
       "description": "Идентификатор документа",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "CreateAction": {
       "description": "Действие на создание",
@@ -39,5 +37,9 @@
       "type": "string",
       "default": "DeleteDocument"
     }
-  }
+  },
+  "required": [
+    "ConfigId",
+    "DocumentId"
+  ]
 }

@@ -11,8 +11,7 @@
     },
     "Source": {
       "description": "Наименование источника данных привязки",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "Property": {
       "description": "Путь к свойству источника данных привязки",
@@ -22,5 +21,8 @@
       "description": "Преобразователь данных между элементом и источником",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/BindingConverter.json"
     }
-  }
+  },
+  "required": [
+    "Source"
+  ]
 }

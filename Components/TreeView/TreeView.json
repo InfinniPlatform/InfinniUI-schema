@@ -15,8 +15,7 @@
     },
     "KeyProperty": {
       "description": "Свойство элемента коллекции с идентификатором",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "ParentSelector": {
       "description": "Функция выборки из элемента коллекции идентификатора родителя",
@@ -24,8 +23,11 @@
     },
     "ParentProperty": {
       "description": "Свойство элемента коллекции с идентификатором родителя",
-      "type": "string",
-      "required": true
+      "type": "string"
     }
-  }
+  },
+  "required": [
+    "KeyProperty",
+    "ParentProperty"
+  ]
 }

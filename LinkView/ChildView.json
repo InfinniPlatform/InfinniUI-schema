@@ -11,8 +11,10 @@
   "properties": {
     "Name": {
       "description": "Наименование ссылки на представление",
-      "type": "string",
-      "required": true
+      "type": "string"
     }
-  }
+  },
+  "required": [
+    "Name"
+  ]
 }

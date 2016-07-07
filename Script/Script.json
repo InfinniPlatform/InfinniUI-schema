@@ -6,12 +6,14 @@
   "properties": {
     "Name": {
       "description": "Наименование функции",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "Body": {
       "description": "Тело функции",
       "type": "string"
     }
-  }
+  },
+  "required": [
+    "Name"
+  ]
 }

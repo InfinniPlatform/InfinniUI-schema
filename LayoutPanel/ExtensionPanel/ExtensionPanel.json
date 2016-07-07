@@ -11,8 +11,7 @@
   "properties": {
     "ExtensionName": {
       "description": "Наименование внешнего компонента",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "Parameters": {
       "description": "Правила передачи параметров во внешний компонент",
@@ -22,16 +21,21 @@
         "properties": {
           "Name": {
             "description": "Наименование параметра внешнего компонента",
-            "type": "string",
-            "required": true
+            "type": "string"
           },
           "Value": {
             "description": "Значение передаваемого во внешний компонент параметра",
-            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json",
-            "required": true
+            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
           }
-        }
+        },
+        "required": [
+          "Name",
+          "Value"
+        ]
       }
     }
-  }
+  },
+  "required": [
+    "ExtensionName"
+  ]
 }

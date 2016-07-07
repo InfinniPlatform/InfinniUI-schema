@@ -11,13 +11,15 @@
   "properties": {
     "View": {
       "description": "Ссылка на представление",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json",
-      "required": true
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json"
     },
     "Items": {
       "description": "Привязка данных для списка",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json",
-      "required": true
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
     }
-  }
+  },
+  "required": [
+    "View",
+    "Items"
+  ]
 }

@@ -14,8 +14,10 @@
       "type": "string"
     },
     "Value": {
-      "description": "Значение фильтра",
-      "type": "any"
+      "description": "Значение фильтра"
     }
-  }
+  },
+  "required": [
+    "CriteriaType"
+  ]
 }

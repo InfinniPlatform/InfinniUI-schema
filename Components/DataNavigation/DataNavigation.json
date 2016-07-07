@@ -19,8 +19,10 @@
     },
     "DataSource": {
       "description": "Наименование источника данных",
-      "type": "string",
-      "required": true
+      "type": "string"
     }
-  }
+  },
+  "required": [
+    "DataSource"
+  ]
 }

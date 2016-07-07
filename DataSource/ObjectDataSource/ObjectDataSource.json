@@ -11,10 +11,7 @@
   "properties": {
     "Items": {
       "description": "Список элементов источника данных",
-      "type": "array",
-      "items": {
-        "type": "any"
-      }
+      "type": "array"
     }
   }
 }

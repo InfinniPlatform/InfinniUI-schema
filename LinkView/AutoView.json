@@ -11,22 +11,24 @@
   "properties": {
     "ConfigId": {
       "description": "Идентификатор конфигурации",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "DocumentId": {
       "description": "Идентификатор документа",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "ViewType": {
       "description": "Тип представления",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/ViewType.json",
-      "required": true
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/ViewType.json"
     },
     "MetadataName": {
       "description": "Наименование представления",
       "type": "string"
     }
-  }
+  },
+  "required": [
+    "ConfigId",
+    "DocumentId",
+    "ViewType"
+  ]
 }

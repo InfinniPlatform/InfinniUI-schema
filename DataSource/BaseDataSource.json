@@ -6,8 +6,7 @@
   "properties": {
     "Name": {
       "description": "Наименование источника данных",
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "IdProperty": {
       "description": "Наименование свойства с идентификатором элемента",
@@ -84,5 +83,8 @@
       "description": "Обработчик события о том, что произошла ошибка",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
-  }
+  },
+  "required": [
+    "Name"
+  ]
 }
