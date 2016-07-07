@@ -3,18 +3,13 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Действие открытия представления",
   "type": "object",
-  "allOf": [
-    {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
-    }
-  ],
   "properties": {
-    "View": {
+    "LinkView": {
       "description": "Ссылка на представление",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json"
     }
   },
   "required": [
-    "View"
+    "LinkView"
   ]
 }

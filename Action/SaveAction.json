@@ -3,23 +3,27 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Действие сохранения текущего элемента источника данных",
   "type": "object",
-  "allOf": [
-    {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
-    }
-  ],
   "properties": {
+    "DestinationValue": {
+      "description": "Источник данных",
+      "type": "object",
+      "properties": {
+        "Source": {
+          "description": "Название источника данных",
+          "type": "string"
+        }
+      },
+      "required": [
+        "Source"
+      ]
+    },
     "CanClose": {
       "description": "Разрешено ли закрытие представления",
       "type": "boolean",
       "default": true
-    },
-    "DataSource": {
-      "description": "Источник данных",
-      "type": "string"
     }
   },
   "required": [
-    "DataSource"
+    "DestinationValue"
   ]
 }

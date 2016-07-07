@@ -13,20 +13,11 @@
     "AddAction": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/AddAction.json"
     },
-    "AddItemAction": {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/AddItemAction.json"
-    },
     "EditAction": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/EditAction.json"
     },
-    "EditItemAction": {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/EditItemAction.json"
-    },
     "DeleteAction": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/DeleteAction.json"
-    },
-    "DeleteItemAction": {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/DeleteItemAction.json"
     },
     "SaveAction": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/SaveAction.json"

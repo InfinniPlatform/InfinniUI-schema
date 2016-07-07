@@ -3,23 +3,51 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Действие открытия представления для выбора данных",
   "type": "object",
-  "allOf": [
-    {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
-    }
-  ],
   "properties": {
-    "View": {
+    "LinkView": {
       "description": "Ссылка на представление",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json"
     },
     "SourceValue": {
       "description": "Источник выбранного значения",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+      "type": "object",
+      "properties": {
+        "Source": {
+          "description": "Название источника данных",
+          "type": "string"
+        },
+        "Property": {
+          "description": "Путь до поля в источнике данных, которое будет копироваться",
+          "type": "string"
+        }
+      },
+      "required": [
+        "Source",
+        "Property"
+      ]
     },
     "DestinationValue": {
       "description": "Приемник выбранного значения",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+      "type": "object",
+      "properties": {
+        "Source": {
+          "description": "Название источника данных",
+          "type": "string"
+        },
+        "Property": {
+          "description": "Путь до поля в источнике данных, куда будет копировано значение",
+          "type": "string"
+        }
+      },
+      "required": [
+        "Source",
+        "Property"
+      ]
     }
-  }
+  },
+  "required": [
+    "LinkView",
+    "DestinationValue",
+    "SourceValue"
+  ]
 }

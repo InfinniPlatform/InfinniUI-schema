@@ -3,23 +3,32 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Действие удаления текущего элемента из источника данных",
   "type": "object",
-  "allOf": [
-    {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
-    }
-  ],
   "properties": {
+    "DestinationValue": {
+      "description": "Источник данных",
+      "type": "object",
+      "properties": {
+        "Source": {
+          "description": "Название источника данных",
+          "type": "string"
+        },
+        "Property": {
+          "description": "Путь до документа в источнике данных, который будет удалятся",
+          "type": "string"
+        }
+      },
+      "required": [
+        "Source",
+        "Property"
+      ]
+    },
     "Accept": {
       "description": "Нужно ли подтверждение удаления",
       "type": "boolean",
       "default": true
-    },
-    "DataSource": {
-      "description": "Источник данных",
-      "type": "string"
     }
   },
   "required": [
-    "DataSource"
+    "DestinationValue"
   ]
 }

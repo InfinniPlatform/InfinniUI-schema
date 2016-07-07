@@ -3,18 +3,22 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Действие обновления источника данных",
   "type": "object",
-  "allOf": [
-    {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
-    }
-  ],
   "properties": {
-    "DataSource": {
+    "DestinationValue": {
       "description": "Источник данных",
-      "type": "string"
+      "type": "object",
+      "properties": {
+        "Source": {
+          "description": "Название источника данных",
+          "type": "string"
+        }
+      },
+      "required": [
+        "Source"
+      ]
     }
   },
   "required": [
-    "DataSource"
+    "DestinationValue"
   ]
 }

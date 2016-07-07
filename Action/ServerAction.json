@@ -3,49 +3,34 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Действие вызова операции на сервере",
   "type": "object",
-  "allOf": [
-    {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
-    }
-  ],
   "properties": {
-    "ConfigId": {
-      "description": "Идентификатор конфигурации",
+    "Origin": {
+      "description": "Базовая часть url запроса",
       "type": "string"
     },
-    "DocumentId": {
-      "description": "Идентификатор документа",
+    "Path": {
+      "description": "Уточняющая часть url запроса",
       "type": "string"
     },
-    "ActionId": {
-      "description": "Идентификатор действия",
+    "Method": {
+      "description": "Метод запроса",
       "type": "string"
     },
-    "Parameters": {
-      "description": "Список параметров запроса",
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "Name": {
-            "description": "Наименование параметра запроса",
-            "type": "string"
-          },
-          "Value": {
-            "description": "Привязка данных текущего представления на параметр запроса",
-            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
-          }
-        },
-        "required": [
-          "Name",
-          "Value"
-        ]
-      }
+    "ContentType": {
+      "description": "Тип данных",
+      "type": "string"
+    },
+    "Data": {
+      "description": "Данные запроса",
+      "type": "object"
+    },
+    "Params": {
+      "description": "Параметры запроса",
+      "type": "object"
     }
   },
   "required": [
-    "ConfigId",
-    "DocumentId",
-    "ActionId"
+    "Origin",
+    "Path"
   ]
 }

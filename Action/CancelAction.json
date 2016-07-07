@@ -3,10 +3,5 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Действие закрытия представления со статусом отмены",
   "type": "object",
-  "allOf": [
-    {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ActionBase.json"
-    }
-  ],
   "properties": {}
 }
