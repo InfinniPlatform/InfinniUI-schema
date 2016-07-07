@@ -1,10 +1,13 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabPage.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Страница панели закладок TabPanel",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
+    }
+  ],
   "properties": {
     "Icon": {
       "description": "Изображение заголовка страницы",
@@ -23,6 +26,5 @@
       "description": "Обработчик события о том, что страница была закрыта",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
-  },
-  "additionalProperties": false
+  }
 }

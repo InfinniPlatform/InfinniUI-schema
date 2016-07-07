@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/EditorBase/EditorBase.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Интерфейс редакторов значений",
   "type": "object",
   "properties": {
@@ -27,6 +28,5 @@
       "description": "Обработчик события о том, что значение было изменено",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
-  },
-  "additionalProperties": false
+  }
 }

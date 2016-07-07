@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataGrid/DataGridColumn.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Колонка DataGrid",
   "type": "object",
   "properties": {
@@ -27,6 +28,5 @@
       "description": "Шаблон отображения элемента коллекции для ячейки",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     }
-  },
-  "additionalProperties": false
+  }
 }

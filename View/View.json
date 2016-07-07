@@ -1,10 +1,13 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/View.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Визуальное представление",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
+    }
+  ],
   "properties": {
     "Icon": {
       "description": "Изображение заголовка представления",
@@ -54,6 +57,5 @@
       "description": "Обработчик события о том, что представление было закрыто",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
-  },
-  "additionalProperties": false
+  }
 }

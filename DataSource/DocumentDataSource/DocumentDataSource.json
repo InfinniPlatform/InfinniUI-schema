@@ -1,10 +1,13 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/DocumentDataSource/DocumentDataSource.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Источник данных представления для документов InfinniPlatform",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/BaseDataSource.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/BaseDataSource.json"
+    }
+  ],
   "properties": {
     "ConfigId": {
       "description": "Идентификатор конфигурации",
@@ -36,6 +39,5 @@
       "type": "string",
       "default": "DeleteDocument"
     }
-  },
-  "additionalProperties": false
+  }
 }

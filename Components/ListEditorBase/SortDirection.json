@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/SortDirection.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Направление операции сортировки данных",
   "enum": [
     "None",

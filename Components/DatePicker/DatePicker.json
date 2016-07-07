@@ -1,10 +1,13 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DatePicker/DatePicker.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Редактор даты и времени",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/TextEditorBase.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/TextEditorBase.json"
+    }
+  ],
   "properties": {
     "MinValue": {
       "description": "Минимальное значение",
@@ -21,6 +24,5 @@
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DatePicker/DatePickerMode.json",
       "default": "Date"
     }
-  },
-  "additionalProperties": false
+  }
 }

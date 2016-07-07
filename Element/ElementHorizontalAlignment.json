@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/ElementHorizontalAlignment.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Горизонтальное выравнивание в родительском элементе",
   "enum": [
     "Left",

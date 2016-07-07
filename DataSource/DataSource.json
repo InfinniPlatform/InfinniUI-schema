@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/DataSource.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Контейнер для описания источника данных представления",
   "type": "object",
   "properties": {
@@ -12,6 +13,5 @@
     "MetadataDataSource": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/MetadataDataSource/MetadataDataSource.json"
     }
-  },
-  "additionalProperties": false
+  }
 }

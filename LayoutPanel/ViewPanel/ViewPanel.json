@@ -1,15 +1,17 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ViewPanel/ViewPanel.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Контейнер для встраивания представления",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
+    }
+  ],
   "properties": {
     "View": {
       "description": "Ссылка на представление",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json"
     }
-  },
-  "additionalProperties": false
+  }
 }

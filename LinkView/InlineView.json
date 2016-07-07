@@ -1,15 +1,17 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/InlineView.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Встроенное представление",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/BaseLinkView.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/BaseLinkView.json"
+    }
+  ],
   "properties": {
     "View": {
       "description": "Встроенное описание представления",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/View.json"
     }
-  },
-  "additionalProperties": false
+  }
 }

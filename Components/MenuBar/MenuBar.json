@@ -1,15 +1,17 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/MenuBar/MenuBar.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Меню",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
+    }
+  ],
   "properties": {
     "ConfigId": {
       "description": "Идентификатор конфигурации для загрузки меню",
       "type": "string"
     }
-  },
-  "additionalProperties": false
+  }
 }

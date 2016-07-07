@@ -1,8 +1,9 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Icon/Icon.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Элемент для отображения изображения",
   "type": "object",
-  "extends": [
+  "allOf": [
     {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/Element.json"
     },
@@ -10,6 +11,5 @@
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/EditorBase/EditorBase.json"
     }
   ],
-  "properties": {},
-  "additionalProperties": false
+  "properties": {}
 }

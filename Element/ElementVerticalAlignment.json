@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/ElementVerticalAlignment.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Вертикальное выравнивание в родительском элементе",
   "enum": [
     "Top",

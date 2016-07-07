@@ -1,10 +1,13 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/AutoView.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Автоматически генерируемое представление",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/BaseLinkView.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/BaseLinkView.json"
+    }
+  ],
   "properties": {
     "ConfigId": {
       "description": "Идентификатор конфигурации",
@@ -25,6 +28,5 @@
       "description": "Наименование представления",
       "type": "string"
     }
-  },
-  "additionalProperties": false
+  }
 }

@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/BindingConverter.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Преобразователь данных между элементом и источником",
   "type": "object",
   "properties": {
@@ -11,6 +12,5 @@
       "description": "Функция конвертации данных источника в формат данных элемента",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
-  },
-  "additionalProperties": false
+  }
 }

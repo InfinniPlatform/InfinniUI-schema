@@ -1,15 +1,17 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/RadioGroup/RadioGroup.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Список радиокнопок",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/ListEditorBase.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/ListEditorBase.json"
+    }
+  ],
   "properties": {
     "Orientation": {
       "description": "Ориентация списка",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/RadioGroup/RadioGroupOrientation.json"
     }
-  },
-  "additionalProperties": false
+  }
 }

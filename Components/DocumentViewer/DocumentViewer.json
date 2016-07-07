@@ -1,10 +1,13 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DocumentViewer/DocumentViewer.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Элемент для отображения печатного представления",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/Element.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/Element.json"
+    }
+  ],
   "properties": {
     "ConfigId": {
       "description": "Идентификатор конфигурации",
@@ -29,6 +32,5 @@
       "description": "Привязка данных для источника",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
     }
-  },
-  "additionalProperties": false
+  }
 }

@@ -1,10 +1,13 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextBox/TextBox.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Редактор неформатированного текста",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/TextEditorBase.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/TextEditorBase.json"
+    }
+  ],
   "properties": {
     "Multiline": {
       "description": "Разрешен ли многострочный текст",
@@ -15,6 +18,5 @@
       "description": "Максимально видимое количество строк",
       "type": "integer"
     }
-  },
-  "additionalProperties": false
+  }
 }

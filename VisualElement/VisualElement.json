@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Визуальный элемент представления",
   "type": "object",
   "properties": {
@@ -93,6 +94,5 @@
     "Frame": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Frame/Frame.json"
     }
-  },
-  "additionalProperties": false
+  }
 }

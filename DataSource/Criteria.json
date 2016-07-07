@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/Criteria.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Критерий фильтрации объекта",
   "type": "object",
   "properties": {
@@ -16,6 +17,5 @@
       "description": "Значение фильтра",
       "type": "any"
     }
-  },
-  "additionalProperties": false
+  }
 }

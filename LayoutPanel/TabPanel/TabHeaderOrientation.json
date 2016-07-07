@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TabPanel/TabHeaderOrientation.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Ориентация закладок в TabPanel",
   "enum": [
     "Horizontal",

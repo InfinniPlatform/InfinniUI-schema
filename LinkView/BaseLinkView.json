@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/BaseLinkView.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Базовый тип для ссылки на представление",
   "type": "object",
   "properties": {

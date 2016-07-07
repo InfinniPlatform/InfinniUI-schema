@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/CriteriaType.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Оператор фильтрации",
   "enum": [
     "IsEquals",

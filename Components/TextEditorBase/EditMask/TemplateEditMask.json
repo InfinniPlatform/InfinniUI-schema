@@ -1,10 +1,13 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/TemplateEditMask.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Маска ввода строки по шаблону",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/EditMaskBase.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/EditMaskBase.json"
+    }
+  ],
   "properties": {
     "MaskSaveLiteral": {
       "description": "Сохранять литералы в редактируемом значении",
@@ -16,6 +19,5 @@
       "type": "string",
       "default": "_"
     }
-  },
-  "additionalProperties": false
+  }
 }

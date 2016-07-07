@@ -1,10 +1,13 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/MetadataDataSource/MetadataDataSource.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Источник данных представления для метаданных InfinniPlatform",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/BaseDataSource.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/BaseDataSource.json"
+    }
+  ],
   "properties": {
     "MetadataType": {
       "description": "Тип метаданных",
@@ -21,6 +24,5 @@
       "type": "string",
       "required": false
     }
-  },
-  "additionalProperties": false
+  }
 }

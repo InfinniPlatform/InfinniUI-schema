@@ -1,8 +1,9 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Label/Label.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Текстовая метка",
   "type": "object",
-  "extends": [
+  "allOf": [
     {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/Element.json"
     },
@@ -29,6 +30,5 @@
       "description": "Максимально видимое количество строк",
       "type": "integer"
     }
-  },
-  "additionalProperties": false
+  }
 }

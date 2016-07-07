@@ -1,16 +1,18 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/ChildView.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Ссылка на дочернее представление",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/BaseLinkView.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/BaseLinkView.json"
+    }
+  ],
   "properties": {
     "Name": {
       "description": "Наименование ссылки на представление",
       "type": "string",
       "required": true
     }
-  },
-  "additionalProperties": false
+  }
 }

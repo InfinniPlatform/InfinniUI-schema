@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/BaseDataSource.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Базовый тип источников данных представления",
   "type": "object",
   "properties": {

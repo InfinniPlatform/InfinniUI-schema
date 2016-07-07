@@ -1,5 +1,6 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/Script.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Прикладной скрипт, выполняемый на стороне клиента",
   "type": "object",
   "properties": {
@@ -12,6 +13,5 @@
       "description": "Тело функции",
       "type": "string"
     }
-  },
-  "additionalProperties": false
+  }
 }

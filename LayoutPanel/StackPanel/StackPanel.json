@@ -1,16 +1,18 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/StackPanel/StackPanel.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Контейнер в виде стека элементов",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/Container.json"
+    }
+  ],
   "properties": {
     "Orientation": {
       "description": "Ориентация стека",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/StackPanel/StackPanelOrientation.json",
       "default": "Vertical"
     }
-  },
-  "additionalProperties": false
+  }
 }

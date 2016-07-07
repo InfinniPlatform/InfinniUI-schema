@@ -1,10 +1,13 @@
 {
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TreeView/TreeView.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Иерархический список",
   "type": "object",
-  "extends": {
-    "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/ListEditorBase.json"
-  },
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/ListEditorBase.json"
+    }
+  ],
   "properties": {
     "KeySelector": {
       "description": "Функция выборки из элемента коллекции идентификатора",
@@ -24,6 +27,5 @@
       "type": "string",
       "required": true
     }
-  },
-  "additionalProperties": false
+  }
 }
