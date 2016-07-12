@@ -9,14 +9,6 @@
     }
   ],
   "properties": {
-    "ConfigId": {
-      "description": "Идентификатор конфигурации",
-      "type": "string"
-    },
-    "DocumentId": {
-      "description": "Идентификатор документа",
-      "type": "string"
-    },
     "PrintViewId": {
       "description": "Идентификатор печатного представления",
       "type": "string"

@@ -1,0 +1,11 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TimePicker/TimePicker.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Редактор времени (значением данного элемента всегдя является UNIX time)",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DateTimePicker/DateTimePicker.json"
+    }
+  ]
+}

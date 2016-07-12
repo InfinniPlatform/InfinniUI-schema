@@ -21,6 +21,10 @@
       "description": "Приращение значения",
       "type": "number",
       "default": 1
+    },
+    "StartValue": {
+      "description": "Начальное значение по умолчанию",
+      "type": "number"
     }
   }
 }

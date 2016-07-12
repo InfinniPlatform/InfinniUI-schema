@@ -10,7 +10,7 @@
     },
     "Header": {
       "description": "Заголовок колонки",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
+      "type": "string"
     },
     "CellSelector": {
       "description": "Функция выборки из элемента коллеции значения для ячейки",
@@ -27,6 +27,10 @@
     "CellTemplate": {
       "description": "Шаблон отображения элемента коллекции для ячейки",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
+    },
+    "Width": {
+      "description": "Ширина колонки",
+      "type": "string"
     }
   }
 }

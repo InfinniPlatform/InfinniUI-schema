@@ -11,19 +11,15 @@
   "properties": {
     "ContentTemplate": {
       "description": "Шаблон отображения содержимого кнопки",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/Element.json"
     },
     "Content": {
       "description": "Содержимое кнопки",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
+      "type": "string"
     },
     "Action": {
       "description": "Действие при нажатии на кнопку",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/Action.json"
-    },
-    "OnClick": {
-      "description": "Обработчик события нажатия на кнопку",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   }
 }

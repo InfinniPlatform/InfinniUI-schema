@@ -1,0 +1,35 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ButtonEdit/ButtonEdit.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Текстовое поле с кнопкой",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextBox/TextBox.json"
+    }
+  ],
+  "properties": {
+    "Icon": {
+      "description": "Иконка, отображаемая на кнопке",
+      "type": "string"
+    },
+    "ReadOnly": {
+      "description": "Возможно ли редактирование текстового поля",
+      "type": "boolean",
+	  "default": true
+    },
+    "ShowClear": {
+      "description": "Наличие кнопки, очищающей указанное значение",
+      "type": "boolean",
+	  "default": true
+    },
+    "OnButtonClick": {
+      "description": "Обработчик события нажатия на кнопку",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
+    },
+    "Action": {
+      "description": "Действие при нажатии на кнопку",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/Action.json"
+    }
+  }
+}

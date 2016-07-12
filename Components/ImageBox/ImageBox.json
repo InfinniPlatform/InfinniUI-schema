@@ -22,6 +22,11 @@
     "MaxSize": {
       "description": "Максимальный размер данных в байтах",
       "type": "integer"
+    },
+	"ReadOnly": {
+      "description": "Возможено ли изменение изображения",
+      "type": "boolean",
+	  "default": false
     }
   }
 }

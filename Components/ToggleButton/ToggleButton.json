@@ -14,11 +14,13 @@
   "properties": {
     "TextOn": {
       "description": "Текст на включенное состояние",
-      "type": "string"
+      "type": "string",
+	  "default": "ON"
     },
     "TextOff": {
       "description": "Текст на выключенное состояние",
-      "type": "string"
+      "type": "string",
+	  "default": "OFF"
     }
   }
 }

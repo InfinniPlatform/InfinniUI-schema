@@ -23,10 +23,22 @@
       "type": "boolean",
       "default": false
     },
-    "SelectInDialog": {
-      "description": "Разрешен ли выбор значения в диалоге",
+	"AutocompleteProperty": {
+      "description": "Свойство, по которому будет выполняться автозавершение ввода",
+      "type": "string"
+    },
+    "ShowClear": {
+      "description": "Наличие кнопки, очищающей выбранное значение",
       "type": "boolean",
       "default": false
+    },
+	"ValueTemplate": {
+      "description": "Функция шаблонизации выбранного элемента",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
+    },
+	"ValueFormat": {
+      "description": "Формат отображения выбранного элемента",
+      "type": "string"
     }
   }
 }

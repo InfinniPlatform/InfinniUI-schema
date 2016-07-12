@@ -1,0 +1,10 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListBox/ListBoxMode.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Режим отображения списка",
+  "enum": [
+    "common",
+    "base",
+    "checking"
+  ]
+}

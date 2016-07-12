@@ -19,6 +19,35 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
       }
+    },
+	"GroupItemSort": {
+      "description": "Направление операции сортировки групп",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/SortDirection.json",
+      "default": "None"
+    },
+    "GroupValueSelector": {
+      "description": "Функция выборки из элемента коллекции значения для группировки",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
+    },
+    "GroupValueProperty": {
+      "description": "Свойство элемента коллекции со значением для группировки",
+      "type": "string"
+    },
+    "GroupItemSelector": {
+      "description": "Функция выборки из элемента коллеции значения для заголовка группы",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
+    },
+    "GroupItemProperty": {
+      "description": "Свойство элемента коллекции со значением для заголовка группы",
+      "type": "string"
+    },
+    "GroupItemFormat": {
+      "description": "Правила форматирования элемента коллекции для заголовка группы",
+      "type": "string"
+    },
+    "GroupItemTemplate": {
+      "description": "Шаблон отображения элемента коллекции для заголовка группы",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     }
   }
 }

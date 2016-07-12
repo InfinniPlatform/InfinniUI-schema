@@ -1,0 +1,27 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DateTimePicker/DateTimePicker.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Редактор даты и времени",
+  "type": "object",
+  "properties": {
+    "MinValue": {
+      "description": "Минимальное значение",
+      "type": "string",
+      "format": "date-time"
+    },
+    "MaxValue": {
+      "description": "Максимальное значение",
+      "type": "string",
+      "format": "date-time"
+    },
+    "Mode": {
+      "description": "Режим работы элемента",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DateTimePicker/DatePickerMode.json",
+      "default": "Date"
+    },
+    "TimeZone": {
+      "description": "Смещение часового пояса, являющееся разностью в минутах между временем UTC и местным временем",
+      "type": "integer"
+    }
+  }
+}

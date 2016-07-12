@@ -1,0 +1,12 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/RadioGroup/RadioGroup.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Список радиокнопок",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListBox/ListBox.json"
+    }
+  ],
+  "properties": {}
+}

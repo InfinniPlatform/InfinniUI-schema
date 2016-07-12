@@ -37,34 +37,9 @@
       "description": "Правила форматирования элемента коллекции для отображения",
       "type": "string"
     },
-    "GroupItemSort": {
-      "description": "Направление операции сортировки групп",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ListEditorBase/SortDirection.json",
-      "default": "None"
-    },
-    "GroupValueSelector": {
-      "description": "Функция выборки из элемента коллекции значения для группировки",
+    "DisabledItemCondition": {
+      "description": "Функция, определяющая запрет на выбор элемента",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
-    },
-    "GroupValueProperty": {
-      "description": "Свойство элемента коллекции со значением для группировки",
-      "type": "string"
-    },
-    "GroupItemSelector": {
-      "description": "Функция выборки из элемента коллеции значения для заголовка группы",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
-    },
-    "GroupItemProperty": {
-      "description": "Свойство элемента коллекции со значением для заголовка группы",
-      "type": "string"
-    },
-    "GroupItemFormat": {
-      "description": "Правила форматирования элемента коллекции для заголовка группы",
-      "type": "string"
-    },
-    "GroupItemTemplate": {
-      "description": "Шаблон отображения элемента коллекции для заголовка группы",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     },
     "OnSelectedItemChanged": {
       "description": "Обработчик события о том, что элемент был выделен",
