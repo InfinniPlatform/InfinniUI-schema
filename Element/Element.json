@@ -51,6 +51,10 @@
       "description": "Стиль текста элемента",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/TextStyle.json"
     },
+    "Style": {
+      "description": "Имя кастомного стиля",
+      "type": "string"
+    },
     "Foreground": {
       "description": "Цвет текста элемента",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/ColorStyle.json"
@@ -59,13 +63,20 @@
       "description": "Цвет фона элемента",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/ColorStyle.json"
     },
-    "Texture": {
-      "description": "Текстура элемента",
-      "type": "object"
-    },
     "ToolTip": {
       "description": "Подсказка элемента",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
+        }
+      ]      
+    },
+    "Tag": {
+      "description": "Произвольное значение, которое можно привязать к элементу",
+      "type": "any"
     },
     "OnLoaded": {
       "description": "Обработчик события о том, что элемент был загружен",
@@ -79,7 +90,11 @@
       "description": "Обработчик события о том, что элемент потерял фокус ввода",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
-    "OnMouseDoubleClick": {
+    "OnClick": {
+      "description": "Обработчик события о том, что по элементу сделали клик мыши",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
+    },
+    "OnDoubleClick": {
       "description": "Обработчик события о том, что по элементу сделали двойной клик мыши",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
