@@ -3,12 +3,21 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Встроенное представление",
   "type": "object",
-  "allOf": [
-    {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/BaseLinkView.json"
-    }
-  ],
   "properties": {
+        "OpenMode": {
+      "description": "Способ открытия представления",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/OpenMode.json",
+      "default": "Application"
+    },
+    "Container": {
+      "description": "Имя контейнера для открытия представления",
+      "type": "string",
+      "default": "MainContainer"
+    },
+    "DialogWidth": {
+      "description": "Ширина диалогового окна",
+      "type": "string"
+    },
     "View": {
       "description": "Встроенное описание представления",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/View.json"

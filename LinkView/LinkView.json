@@ -4,17 +4,11 @@
   "description": "Контейнер для описания ссылки на представление",
   "type": "object",
   "properties": {
-    "ExistsView": {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/ExistsView.json"
-    },
     "AutoView": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/AutoView.json"
     },
     "InlineView": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/InlineView.json"
-    },
-    "ChildView": {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/ChildView.json"
     }
   }
 }

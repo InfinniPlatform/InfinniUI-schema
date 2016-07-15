@@ -3,9 +3,8 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Способ открытия представления",
   "enum": [
-    "Application",
+    "Default",
     "Container",
-    "Dialog",
-    "Page"
+    "Dialog"
   ]
 }
