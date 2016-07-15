@@ -31,12 +31,6 @@
     "SelectAction": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/SelectAction.json"
     },
-    "PrintReportAction": {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/PrintReportAction.json"
-    },
-    "PrintViewAction": {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/PrintViewAction.json"
-    },
     "ServerAction": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ServerAction.json"
     }
