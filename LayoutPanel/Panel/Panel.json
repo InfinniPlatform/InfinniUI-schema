@@ -21,7 +21,7 @@
     },
     "HeaderTemplate": {
       "description": "Шаблон отображения заголовка панели",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "Header": {
       "description": "Заголовок панели",

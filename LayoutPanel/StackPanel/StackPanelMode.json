@@ -1,0 +1,9 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/StackPanel/StackPanelMode.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Режим отображения",
+  "enum": [
+    "Base",
+    "FormGroup"
+  ]
+}

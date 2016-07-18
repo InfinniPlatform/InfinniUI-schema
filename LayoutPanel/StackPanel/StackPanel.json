@@ -13,6 +13,10 @@
       "description": "Ориентация стека",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/StackPanel/StackPanelOrientation.json",
       "default": "Vertical"
+    },
+    "ViewMode": {
+      "description": "Режим отображения",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/StackPanel/StackPanelMode.json"
     }
   }
 }

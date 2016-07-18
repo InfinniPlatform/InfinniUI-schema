@@ -9,7 +9,7 @@
     }
   ],
   "properties": {
-    "View": {
+    "LinkView": {
       "description": "Ссылка на представление",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/LinkView.json"
     }

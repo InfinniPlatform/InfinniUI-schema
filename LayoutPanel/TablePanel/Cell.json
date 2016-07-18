@@ -1,5 +1,5 @@
 {
-  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/GridPanel/GridCell.json",
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/TablePanel/Cell.json",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Ячейка панели GridPanel",
   "type": "object",
