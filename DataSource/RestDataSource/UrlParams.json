@@ -1,0 +1,32 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/RestDataSource/UrlParams.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Параметры запроса",
+  "type": "object",
+  "properties": {
+    "origin": {
+      "description": "Хост и порт",
+      "type": "string"
+    },
+    "path": {
+      "description": "Строка пути (относительно хоста)",
+      "type": "string"
+    },
+    "method": {
+      "description": "Метод запроса",
+      "type": "string"
+    },
+    "data": {
+      "description": "Данные запроса",
+      "type": "object"
+    },
+    "params": {
+      "description": "Параметры запроса",
+      "type": "object"
+    }
+  },
+  "required": [
+    "origin",
+    "path"
+  ]
+}

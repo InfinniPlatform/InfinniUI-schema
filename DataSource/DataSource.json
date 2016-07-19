@@ -9,6 +9,9 @@
     },
     "DocumentDataSource": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/DocumentDataSource/DocumentDataSource.json"
+    },
+    "RestDataSource": {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/RestDataSource/RestDataSource.json"
     }
   }
 }

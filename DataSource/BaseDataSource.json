@@ -18,26 +18,18 @@
       "type": "boolean",
       "default": true
     },
-    "PageNumber": {
-      "description": "Номер страницы по умолчанию",
-      "type": "integer",
+    "IsLazy": {
+      "description": "Ленивая прогрузка данных",
+      "type": "boolean",
+      "default": true
+    },
+    "ResolvePriority": {
+      "description": "Приоритет прогрузки источника данных",
+      "type": "number",
       "default": 0
     },
-    "PageSize": {
-      "description": "Размер страницы по умолчанию",
-      "type": "integer",
-      "default": 10
-    },
-    "OnPageNumberChanged": {
-      "description": "Обработчик события о том, что номер страницы изменился",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
-    },
-    "OnPageSizeChanged": {
-      "description": "Обработчик события о том, что размер страницы изменился",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
-    },
-    "OnFilterChanged": {
-      "description": "Обработчик события о том, что фильтр элементов изменился",
+    "ValidationErrors": {
+      "description": "Функция проверки элемента на ошибки",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
     "OnSelectedItemChanged": {
@@ -48,10 +40,6 @@
       "description": "Обработчик события о том, что одно из свойств изменилось",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     },
-    "OnItemSaved": {
-      "description": "Обработчик события о том, что элемент сохранен",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
-    },
     "OnItemDeleted": {
       "description": "Обработчик события о том, что элемент удален",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
@@ -59,21 +47,9 @@
     "OnItemsUpdated": {
       "description": "Обработчик события о том, что список элементов обновлен",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
-    },
-    "OnItemsAdded": {
-      "description": "Обработчик события о том, что в список элементов добавлены новые",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
-    },
+    },    
     "OnErrorValidator": {
       "description": "Обработчик события о том, что проверка на ошибки завершена",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
-    },
-    "OnWarningValidator": {
-      "description": "Обработчик события о том, что проверка на предупреждения завершена",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
-    },
-    "OnError": {
-      "description": "Обработчик события о том, что произошла ошибка",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   },

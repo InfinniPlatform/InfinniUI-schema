@@ -9,37 +9,47 @@
     }
   ],
   "properties": {
-    "ConfigId": {
-      "description": "Идентификатор конфигурации",
-      "type": "string"
-    },
     "DocumentId": {
       "description": "Идентификатор документа",
       "type": "string"
     },
-    "CreateAction": {
-      "description": "Действие на создание",
-      "type": "string",
-      "default": "CreateDocument"
+    "Filter": {
+      "description": "Правило фильтрации документов",
+      "type": "string"
     },
-    "ReadAction": {
-      "description": "Действие на чтение",
-      "type": "string",
-      "default": "GetDocument"
+    "FilterParams": {
+      "description": "Параметры фильтра",
+      "type": "object"
     },
-    "UpdateAction": {
-      "description": "Действие на изменение",
-      "type": "string",
-      "default": "SetDocument"
+    "PageNumber": {
+      "description": "Номер страницы",
+      "type": "integer",
+      "default": 0
     },
-    "DeleteAction": {
-      "description": "Действие на удаление",
-      "type": "string",
-      "default": "DeleteDocument"
+    "PageSize": {
+      "description": "Размер страницы",
+      "type": "integer",
+      "default": 15
+    },
+    "Search": {
+      "description": "Строка полнотекстового поиска",
+      "type": "string"
+    },
+    "Select": {
+      "description": "Правило отображения документов",
+      "type": "string"
+    },
+    "Order": {
+      "description": "Правило сортировки документов",
+      "type": "string"
+    },
+    "NeedTotalCount": {
+      "description": "Необходимость подсчета количества",
+      "type": "boolean",
+      "default": false
     }
   },
   "required": [
-    "ConfigId",
     "DocumentId"
   ]
 }
