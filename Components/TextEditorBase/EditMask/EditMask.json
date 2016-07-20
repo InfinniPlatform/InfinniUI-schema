@@ -12,9 +12,6 @@
     },
     "TemplateEditMask": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/TemplateEditMask.json"
-    },
-    "RegexEditMask": {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/EditMask/RegexEditMask.json"
     }
   }
 }
