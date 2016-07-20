@@ -9,10 +9,6 @@
     }
   ],
   "properties": {
-    "Icon": {
-      "description": "Изображение заголовка представления",
-      "type": "string"
-    },
     "Scripts": {
       "description": "Список скриптов представления",
       "type": "array",
@@ -21,7 +17,7 @@
       }
     },
     "Parameters": {
-      "description": "Список источников данных представления",
+      "description": "Список параметров представления",
       "type": "array",
       "items": {
         "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/Parameter.json"
@@ -34,12 +30,14 @@
         "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataSource/DataSource.json"
       }
     },
-    "ChildViews": {
-      "description": "Список ссылок на дочерние представления",
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/LinkViewItem.json"
-      }
+    "HeaderTemplate": {
+      "description": "Шаблон заголовка представления",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
+    },
+    "CloseButtonVisibility": {
+       "description": "Флаг видимости кнопки закрытия",
+      "type": "boolean",
+      "default": true
     },
     "OnOpening": {
       "description": "Обработчик события о том, что представление открывается",

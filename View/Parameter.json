@@ -11,6 +11,9 @@
     "Value": {
       "description": "Значение параметра"
     },
+    "DefaultValue": {
+      "description": "Значение по умолчанию"
+    },
     "OnPropertyChanged": {
       "description": "Обработчик события о том, что одно из свойств изменилось",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
