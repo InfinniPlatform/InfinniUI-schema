@@ -18,21 +18,7 @@
       "description": "Правила передачи параметров в открываемое представение",
       "type": "array",
       "items": {
-        "type": "object",
-        "properties": {
-          "Name": {
-            "description": "Наименование параметра открываемого представления",
-            "type": "string"
-          },
-          "Value": {
-            "description": "Значение параметра открываемого представления",
-            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
-          }
-        },
-        "required": [
-          "Name",
-          "Value"
-        ]
+        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/Parameter.json"
       }
     },
     "DialogWidth": {

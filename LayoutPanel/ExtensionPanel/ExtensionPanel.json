@@ -17,21 +17,7 @@
       "description": "Правила передачи параметров во внешний компонент",
       "type": "array",
       "items": {
-        "type": "object",
-        "properties": {
-          "Name": {
-            "description": "Наименование параметра внешнего компонента",
-            "type": "string"
-          },
-          "Value": {
-            "description": "Значение передаваемого во внешний компонент параметра",
-            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
-          }
-        },
-        "required": [
-          "Name",
-          "Value"
-        ]
+        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/Parameter.json"
       }
     }
   },
