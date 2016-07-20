@@ -3,6 +3,11 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Редактор даты и времени",
   "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/TextEditorBase.json"
+    }
+  ],
   "properties": {
     "MinValue": {
       "description": "Минимальное значение",
