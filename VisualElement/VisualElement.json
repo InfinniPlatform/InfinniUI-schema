@@ -64,9 +64,6 @@
     "DataNavigation": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataNavigation/DataNavigation.json"
     },
-    "DocumentViewer": {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DocumentViewer/DocumentViewer.json"
-    },
     "Panel": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/Panel/Panel.json"
     },
