@@ -109,6 +109,5 @@
     "Frame": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Frame/Frame.json"
     }
-  },
-  "additionalProperties": false
+  }
 }

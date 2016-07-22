@@ -2,7 +2,7 @@
   "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/DisplayFormat/DisplayFormat.json",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "Формат отображения",
-  "oneOf": [
+  "anyOf": [
     {
       "type": "string"
     },
