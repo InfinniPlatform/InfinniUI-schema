@@ -26,9 +26,10 @@
       "type": "boolean",
       "default": true
     },
-    "LineCount": {
-      "description": "Максимально видимое количество строк",
-      "type": "integer"
+    "EscapeHtml": {
+      "description": "Экранируется ли HTML-разметка",
+      "type": "boolean",
+      "default": true
     }
   }
 }
