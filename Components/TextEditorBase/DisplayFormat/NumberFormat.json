@@ -9,8 +9,5 @@
       "type": "string",
       "default": "n"
     }
-  },
-  "required": [
-    "Format"
-  ]
+  }
 }
