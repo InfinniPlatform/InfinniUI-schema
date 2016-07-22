@@ -9,21 +9,35 @@
     }
   ],
   "properties": {
+    "Items": {
+      "description": "Список дочерних элементов контейнера",
+      "anyOf": [
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
+          }
+        }
+      ]
+    },
     "ItemTemplate": {
       "description": "Шаблон отображения дочерних элементов контейнера",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     },
-    "Items": {
-      "description": "Список дочерних элементов контейнера",
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
-      }
+    "ItemFormat": {
+      "description": "Формат отображения дочерних элементов контейнера",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/DisplayFormat/DisplayFormat.json"
     },
-	"GroupItemSort": {
-      "description": "Направление операции сортировки групп",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Container/SortDirection.json",
-      "default": "None"
+    "ItemSelector": {
+      "description": "Функция, конструирующая отображаемое значение",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
+    },
+    "ItemProperty": {
+      "description": "Свойство дочерних элементов контейнера для отображения в контейнере",
+      "type": "string"
     },
     "GroupValueSelector": {
       "description": "Функция выборки из элемента коллекции значения для группировки",
@@ -33,6 +47,14 @@
       "description": "Свойство элемента коллекции со значением для группировки",
       "type": "string"
     },
+    "GroupItemTemplate": {
+      "description": "Шаблон отображения элемента коллекции для заголовка группы",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
+    },
+    "GroupItemFormat": {
+      "description": "Правила форматирования элемента коллекции для заголовка группы",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/DisplayFormat/DisplayFormat.json"
+    },
     "GroupItemSelector": {
       "description": "Функция выборки из элемента коллеции значения для заголовка группы",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
@@ -40,14 +62,6 @@
     "GroupItemProperty": {
       "description": "Свойство элемента коллекции со значением для заголовка группы",
       "type": "string"
-    },
-    "GroupItemFormat": {
-      "description": "Правила форматирования элемента коллекции для заголовка группы",
-      "type": "string"
-    },
-    "GroupItemTemplate": {
-      "description": "Шаблон отображения элемента коллекции для заголовка группы",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     }
   }
 }
