@@ -1,0 +1,18 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/DisplayFormat/BooleanFormat.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Формат отображения логического значения",
+  "type": "object",
+  "properties": {
+    "TrueText": {
+      "type": "string",
+      "description": "Текст для отображения истинного значения",
+      "default": "True"
+    },
+    "FalseText": {
+      "type": "string",
+      "description": "Текст для отображения ложного значения",
+      "default": "False"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/DisplayFormat/DisplayFormat.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Формат отображения",
+  "oneOf": [
+    {
+      "type": "string"
+    },
+    {
+        "type": "object",
+        "properties": {
+          "BooleanFormat": {
+            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/DisplayFormat/BooleanFormat.json"
+          },
+          "DateTimeFormat": {
+            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/DisplayFormat/DateTimeFormat.json"
+          },
+          "NumberFormat": {
+            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/DisplayFormat/NumberFormat.json"
+          },
+          "ObjectFormat": {
+            "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/DisplayFormat/ObjectFormat.json"
+          }
+        }
+    }
+  ]
+
+}

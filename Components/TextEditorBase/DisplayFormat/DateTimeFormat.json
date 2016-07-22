@@ -1,0 +1,16 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/DisplayFormat/DateTimeFormat.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Формат отображения даты/времени",
+  "type": "object",
+  "properties": {
+    "Format": {
+      "description": "Формат отображения",
+      "type": "string",
+      "default": "G"
+    }
+  },
+  "required": [
+    "Format"
+  ]
+}

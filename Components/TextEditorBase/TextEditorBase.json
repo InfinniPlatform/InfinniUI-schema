@@ -23,7 +23,7 @@
     },
     "DisplayFormat": {
       "description": "Формат отображения значения",
-      "type": "string"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/TextEditorBase/DisplayFormat/DisplayFormat.json"
     },
     "EditMask": {
       "description": "Маска ввода значения",
