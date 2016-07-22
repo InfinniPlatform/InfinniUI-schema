@@ -4,29 +4,29 @@
   "description": "Параметры запроса",
   "type": "object",
   "properties": {
-    "origin": {
+    "Origin": {
       "description": "Хост и порт",
       "type": "string"
     },
-    "path": {
+    "Path": {
       "description": "Строка пути (относительно хоста)",
       "type": "string"
     },
-    "method": {
+    "Method": {
       "description": "Метод запроса",
       "type": "string"
     },
-    "data": {
+    "Data": {
       "description": "Данные запроса",
       "type": "object"
     },
-    "params": {
+    "Params": {
       "description": "Параметры запроса",
       "type": "object"
     }
   },
   "required": [
-    "origin",
-    "path"
+    "Origin",
+    "Path"
   ]
 }
