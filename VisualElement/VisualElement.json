@@ -13,6 +13,9 @@
     "PopupButton": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/PopupButton/PopupButton.json"
     },
+    "ButtonEdit": {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ButtonEdit/ButtonEdit.json"
+    },
     "ToolBar": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ToolBar/ToolBar.json"
     },
