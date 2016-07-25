@@ -1,0 +1,12 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/IndeterminateCheckbox/IndeterminateCheckbox.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Переключатель в виде флажка с возможностью неопределенного состояния",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/CheckBox/CheckBox.json"
+    }
+  ],
+  "properties": {}
+}
