@@ -28,8 +28,8 @@
     "CheckBox": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/CheckBox/CheckBox.json"
     },
-    "IndeterminateCheckbox": {
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/IndeterminateCheckbox/IndeterminateCheckbox.json"
+    "IndeterminateCheckBox": {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/IndeterminateCheckBox/IndeterminateCheckBox.json"
     },
     "ToggleButton": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/ToggleButton/ToggleButton.json"
