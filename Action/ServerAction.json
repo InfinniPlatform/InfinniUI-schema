@@ -14,11 +14,13 @@
     },
     "Method": {
       "description": "Метод запроса",
-      "type": "string"
+      "type": "string",
+      "default": "get"
     },
     "ContentType": {
       "description": "Тип данных",
-      "type": "string"
+      "type": "string",
+      "default": "application/x-www-form-urlencoded; charset=utf-8"
     },
     "Data": {
       "description": "Данные запроса",

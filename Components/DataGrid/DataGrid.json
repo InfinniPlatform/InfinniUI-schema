@@ -16,15 +16,15 @@
         "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/DataGrid/DataGridColumn.json"
       }
     },
-	"ShowSelectors": {
+	  "ShowSelectors": {
       "description": "Наличие колонки с CheckBox/Radio для выбора элементов",
       "type": "boolean",
-	  "default": true
+	    "default": true
     },
-	"CheckAllVisible": {
+	  "CheckAllVisible": {
       "description": "Наличие элемента \"Выбрать все\" в шапке таблицы",
       "type": "boolean",
-	  "default": false
+	    "default": false
     },
     "OnCheckAllChanged": {
       "description": "Обработчик изменения состоняие элемента \"Выбрать все\" в шапке таблицы",

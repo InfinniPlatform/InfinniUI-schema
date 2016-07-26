@@ -4,15 +4,14 @@
   "description": "Встроенное представление",
   "type": "object",
   "properties": {
-        "OpenMode": {
+    "OpenMode": {
       "description": "Способ открытия представления",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LinkView/OpenMode.json",
-      "default": "Application"
+      "default": "Default"
     },
     "Container": {
       "description": "Имя контейнера для открытия представления",
-      "type": "string",
-      "default": "MainContainer"
+      "type": "string"
     },
     "DialogWidth": {
       "description": "Ширина диалогового окна",

@@ -20,6 +20,11 @@
     "Action": {
       "description": "Действие при нажатии на кнопку",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/Action.json"
+    },
+    "ViewMode": {
+      "description": "Режим отображения",
+      "type": "string",
+      "default": "common"
     }
   }
 }

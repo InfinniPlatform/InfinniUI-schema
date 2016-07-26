@@ -11,11 +11,13 @@
   "properties": {
     "HorizontalScroll": {
       "description": "Видимость полосы прокрутки по горизонтали",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollVisibility.json"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollVisibility.json",
+      "default": "Auto"
     },
     "VerticalScroll": {
       "description": "Видимость полосы прокрутки по вертикали",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollVisibility.json"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/LayoutPanel/ScrollPanel/ScrollVisibility.json",
+      "default": "Auto"
     }
   }
 }

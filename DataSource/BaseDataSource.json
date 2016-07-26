@@ -11,7 +11,7 @@
     "IdProperty": {
       "description": "Наименование свойства с идентификатором элемента",
       "type": "string",
-      "default": "Id"
+      "default": "_id"
     },
     "FillCreatedItem": {
       "description": "Предзаполнение новых элементов на сервере",

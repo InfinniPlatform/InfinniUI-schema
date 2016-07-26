@@ -29,8 +29,7 @@
     },
     "VerticalAlignment": {
       "description": "Вертикальное выравнивание в родительском элементе",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/ElementVerticalAlignment.json",
-      "default": "Stretch"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/ElementVerticalAlignment.json"
     },
     "HorizontalAlignment": {
       "description": "Горизонтальное выравнивание в родительском элементе",
@@ -44,8 +43,7 @@
     },
     "TextVerticalAlignment": {
       "description": "Вертикальное выравнивание текста внутри элемента",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/TextVerticalAlignment.json",
-      "default": "Center"
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/TextVerticalAlignment.json"
     },
     "TextStyle": {
       "description": "Стиль текста элемента",
