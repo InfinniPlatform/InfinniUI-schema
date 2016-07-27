@@ -24,8 +24,15 @@
     },
     "Visible": {
       "description": "Отображается ли элемент в интерфейсе",
-      "type": "boolean",
-      "default": true
+      "oneOf": [
+        {
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ]      
     },
     "VerticalAlignment": {
       "description": "Вертикальное выравнивание в родительском элементе",
