@@ -10,24 +10,45 @@
     },
     "Text": {
       "description": "Текст заголовка элемента",
-      "type": "string"
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ]
     },
     "Focusable": {
       "description": "Возможен ли установить фокус ввода на элемент",
-      "type": "boolean",
+      "oneOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ],
       "default": true
     },
     "Enabled": {
       "description": "Возможен ли доступ к элементу",
-      "type": "boolean",
+      "oneOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ],
       "default": true
     },
     "Visible": {
       "description": "Отображается ли элемент в интерфейсе",
+      "default": true,
       "oneOf": [
         {
-          "type": "boolean",
-          "default": true
+          "type": "boolean"
         },
         {
           "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
@@ -36,16 +57,37 @@
     },
     "VerticalAlignment": {
       "description": "Вертикальное выравнивание в родительском элементе",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/ElementVerticalAlignment.json"
+      "oneOf": [
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/ElementVerticalAlignment.json"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ]
     },
     "HorizontalAlignment": {
       "description": "Горизонтальное выравнивание в родительском элементе",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/ElementHorizontalAlignment.json",
+      "oneOf": [
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/ElementHorizontalAlignment.json"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ],
       "default": "Stretch"
     },
     "TextHorizontalAlignment": {
       "description": "Горизонтальное выравнивание текста внутри элемента",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/TextHorizontalAlignment.json",
+      "oneOf": [
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Element/TextHorizontalAlignment.json"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ],
       "default": "Left"
     },
     "TextVerticalAlignment": {
@@ -54,19 +96,47 @@
     },
     "TextStyle": {
       "description": "Стиль текста элемента",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/TextStyle.json"
+      "oneOf": [
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/TextStyle.json"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ]
     },
     "Style": {
       "description": "Имя кастомного стиля",
-      "type": "string"
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ]
     },
     "Foreground": {
       "description": "Цвет текста элемента",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/ColorStyle.json"
+       "oneOf": [
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/ColorStyle.json"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ]
     },
     "Background": {
       "description": "Цвет фона элемента",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/ColorStyle.json"
+      "oneOf": [
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/ColorStyle.json"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ]
     },
     "ToolTip": {
       "description": "Подсказка элемента",
