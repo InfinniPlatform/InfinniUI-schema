@@ -20,6 +20,7 @@
     }
   },
   "required": [
-    "Name"
+    "Name",
+    "Value"
   ]
 }

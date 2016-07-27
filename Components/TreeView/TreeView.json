@@ -25,9 +25,5 @@
       "description": "Свойство элемента коллекции с идентификатором родителя",
       "type": "string"
     }
-  },
-  "required": [
-    "KeyProperty",
-    "ParentProperty"
-  ]
+  }
 }

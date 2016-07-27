@@ -30,5 +30,8 @@
       "description": "Обработчик изменения состоняие элемента \"Выбрать все\" в шапке таблицы",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
-  }
+  },
+  "required": [
+    "Columns"
+  ]
 }

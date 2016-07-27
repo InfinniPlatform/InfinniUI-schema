@@ -21,5 +21,8 @@
       "description": "Встроенное описание представления",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/View/View.json"
     }
-  }
+  },
+  "required": [
+    "View"
+  ]
 }
