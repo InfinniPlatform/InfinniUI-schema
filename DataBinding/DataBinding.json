@@ -20,6 +20,9 @@
     "Converter": {
       "description": "Преобразователь данных между элементом и источником",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/BindingConverter.json"
+    },
+    "DefaultValue": {
+      "description": "Значение по умолчанию"
     }
   },
   "required": [
