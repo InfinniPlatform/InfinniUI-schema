@@ -10,8 +10,7 @@
   ],
   "properties": {
     "Value": {
-      "description": "Значение",
-      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+      "description": "Значение"
     },
     "HintText": {
       "description": "Текст с подсказкой для ввода",

@@ -23,10 +23,10 @@
       "description": "Максимальный размер данных в байтах",
       "type": "integer"
     },
-	"ReadOnly": {
+    "ReadOnly": {
       "description": "Возможено ли изменение изображения",
       "type": "boolean",
-	  "default": false
+      "default": false
     }
   }
 }
