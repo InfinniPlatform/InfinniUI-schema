@@ -10,8 +10,15 @@
   ],
   "properties": {
     "Items": {
-      "description": "Список элементов источника данных",
-      "type": "array"
+      "description": "Список элементов источника данных",      
+      "oneOf": [
+        {
+          "type": "array"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ]
     }
   }
 }
