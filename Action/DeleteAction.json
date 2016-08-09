@@ -6,6 +6,9 @@
   "allOf": [
     {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/BaseAction.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/BaseFallibleAction.json"
     }
   ],
   "properties": {

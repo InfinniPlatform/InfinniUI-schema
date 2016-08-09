@@ -1,0 +1,16 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/BaseFallibleAction.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Действия, которые могут завершиться ошибкой",
+  "type": "object",
+  "properties": {
+      "OnSuccess": {
+        "description": "Обработчик события о том, что действие было выполнено успешно",
+        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
+      },
+      "OnError": {
+        "description": "Обработчик события о том, что действие было выполнено с ошибкой",
+        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
+      }
+  }
+}
