@@ -1,0 +1,23 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Link/Link.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Ссылка",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Button/Button.json"
+    }
+  ],
+  "properties": {
+    "Href": {
+      "description": "Адрес документа, на который переводит ссылка",
+      "type": "string",
+      "default": "javascript:;"
+    },
+    "Target": {
+      "description": "Режим загрузки документа",
+      "type": "string",
+      "default": "self"
+    }
+  }
+}
