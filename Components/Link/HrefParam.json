@@ -1,0 +1,27 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Link/HrefParam.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Параметер ссылки",
+  "type": "object",
+  "properties": {
+    "Name": {
+      "description": "Название",
+      "type": "string"
+    },
+    "Value": {
+      "description": "Значение",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ]
+    }
+  },
+  "required": [
+    "Name",
+    "Value"
+  ]
+}

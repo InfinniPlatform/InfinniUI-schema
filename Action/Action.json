@@ -33,6 +33,9 @@
     },
     "ServerAction": {
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/ServerAction.json"
+    },
+    "RouteToAction": {
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Action/RouteToAction.json"
     }
   }
 }

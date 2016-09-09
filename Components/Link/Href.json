@@ -1,0 +1,29 @@
+{
+  "id": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Link/Href.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Адрес ссылки",
+  "type": "object",
+  "properties": {
+    "Name": {
+      "description": "Название маршрута из InfinniUI.config.Routes",
+      "type": "string"
+    },
+    "Params": {
+      "description": "Параметры",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Link/HrefParam.json"
+      }
+    },
+    "Query": {
+      "description": "Параметры поиска",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Link/HrefParam.json"
+      }
+    }
+  },
+  "required": [
+    "Name"
+  ]
+}

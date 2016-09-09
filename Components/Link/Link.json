@@ -11,8 +11,15 @@
   "properties": {
     "Href": {
       "description": "Адрес документа, на который переводит ссылка",
-      "type": "string",
-      "default": "javascript:;"
+      "default": "javascript:;",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/Link/Href.json"
+        }
+      ]
     },
     "Target": {
       "description": "Режим загрузки документа",
