@@ -8,6 +8,10 @@
       "description": "Наименование элемента",
       "type": "string"
     },
+    "Description": {
+      "description": "Пояснение к элементу",
+      "type": "string"
+    },
     "Text": {
       "description": "Текст заголовка элемента",
       "oneOf": [
