@@ -51,6 +51,10 @@
     "OnErrorValidator": {
       "description": "Обработчик события о том, что проверка на ошибки завершена",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
+    },
+    "OnProviderError": {
+      "description": "Обработчик события о том, что поставщик данных вернул ошибку",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   },
   "required": [
