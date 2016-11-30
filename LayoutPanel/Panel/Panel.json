@@ -27,6 +27,11 @@
       "description": "Заголовок панели",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/VisualElement/VisualElement.json"
     },
+    "CollapseChanger": {
+      "description": "Имя элемента, при нажатии на который панель будет сворачиваться/разворачиваться",
+      "type": "string",
+      "default": ""
+    },
     "OnExpanding": {
       "description": "Обработчик события о том, что панель разворачивается",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
