@@ -13,6 +13,11 @@
       "description": "Название маршрута из InfinniUI.config.Routes",
       "type": "string"
     },
+    "Replace": {
+      "description": "Возможность обновить URL без создания записи в истории браузера",
+      "type": "boolean",
+      "default": false
+    },
     "Params": {
       "description": "Параметры",
       "type": "array",
