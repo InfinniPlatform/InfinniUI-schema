@@ -11,5 +11,17 @@
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Components/EditorBase/EditorBase.json"
     }
   ],
-  "properties": {}
+  "properties": {
+    "Size": {
+      "description": "Размер иконки",
+      "oneOf": [
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Style/TextStyle.json"
+        },
+        {
+          "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/DataBinding/DataBinding.json"
+        }
+      ]
+    }
+  }
 }
