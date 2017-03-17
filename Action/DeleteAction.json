@@ -34,6 +34,19 @@
       "description": "Нужно ли подтверждение удаления",
       "type": "boolean",
       "default": true
+    },
+    "AcceptMessage": {
+      "description": "Текст для сообщения во всплывающем окне",
+      "type": "string"
+    },
+    "AcceptMessageType": {
+      "description": "Тип всплывающего окна",
+      "enum": [
+        "default",
+        "warning",
+        "error"
+      ],
+      "default": "default"
     }
   },
   "required": [
