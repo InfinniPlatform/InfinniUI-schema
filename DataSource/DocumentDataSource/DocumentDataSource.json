@@ -13,14 +13,6 @@
       "description": "Идентификатор документа",
       "type": "string"
     },
-    "Filter": {
-      "description": "Правило фильтрации документов",
-      "type": "string"
-    },
-    "FilterParams": {
-      "description": "Параметры фильтра",
-      "type": "object"
-    },
     "PageNumber": {
       "description": "Номер страницы",
       "type": "integer",
@@ -30,10 +22,6 @@
       "description": "Размер страницы",
       "type": "integer",
       "default": 15
-    },
-    "Search": {
-      "description": "Строка полнотекстового поиска",
-      "type": "string"
     },
     "Select": {
       "description": "Правило отображения документов",

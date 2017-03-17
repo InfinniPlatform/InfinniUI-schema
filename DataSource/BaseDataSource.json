@@ -18,6 +18,14 @@
       "type": "boolean",
       "default": true
     },
+    "Filter": {
+      "description": "Правило фильтрации документов",
+      "type": "string"
+    },
+    "FilterParams": {
+      "description": "Параметры фильтра",
+      "type": "object"
+    },
     "IsLazy": {
       "description": "Ленивая прогрузка данных",
       "type": "boolean",
@@ -27,6 +35,10 @@
       "description": "Приоритет прогрузки источника данных",
       "type": "integer",
       "default": 0
+    },    
+    "Search": {
+      "description": "Строка полнотекстового поиска",
+      "type": "string"
     },
     "ValidationErrors": {
       "description": "Функция проверки элемента на ошибки",
