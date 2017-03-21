@@ -8,6 +8,10 @@
       "description": "Наименование источника данных",
       "type": "string"
     },
+    "SuspendUpdate": {
+      "description": "Причина запрета на обновление списка элементов",
+      "type": "string"
+    },
     "IdProperty": {
       "description": "Наименование свойства с идентификатором элемента",
       "type": "string",
@@ -35,7 +39,7 @@
       "description": "Приоритет прогрузки источника данных",
       "type": "integer",
       "default": 0
-    },    
+    },
     "Search": {
       "description": "Строка полнотекстового поиска",
       "type": "string"
@@ -59,7 +63,7 @@
     "OnItemsUpdated": {
       "description": "Обработчик события о том, что список элементов обновлен",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
-    },    
+    },
     "OnErrorValidator": {
       "description": "Обработчик события о том, что проверка на ошибки завершена",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
