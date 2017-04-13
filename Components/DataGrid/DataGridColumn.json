@@ -31,6 +31,18 @@
     "Width": {
       "description": "Ширина колонки",
       "type": "string"
+    },
+    "Sortable": {
+      "description": "Флаг указывающий, что данную колонку можно сортировать",
+      "type": "boolean"
+    },
+    "SortedDefault": {
+      "description": "Флаг указывающий, что элементы отсортированы по данной колонке в одном из направлений",
+      "type": "string"
+    },
+    "SortFunction": {
+      "description": "Функция сортировки при клике на колонке, принимает в аргументах направление сортировки",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   }
 }

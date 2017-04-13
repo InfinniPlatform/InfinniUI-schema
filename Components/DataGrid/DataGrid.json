@@ -29,6 +29,14 @@
     "OnCheckAllChanged": {
       "description": "Обработчик изменения состоняие элемента \"Выбрать все\" в шапке таблицы",
       "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
+    },
+    "OnRowClick": {
+      "description": "Обработчик клика по элементу",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
+    },
+    "OnRowDoubleClick": {
+      "description": "Обработчик двойного клика по элементу",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   },
   "required": [
