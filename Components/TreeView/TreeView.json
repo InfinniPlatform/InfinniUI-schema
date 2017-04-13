@@ -24,6 +24,14 @@
     "ParentProperty": {
       "description": "Свойство элемента коллекции с идентификатором родителя",
       "type": "string"
+    },
+    "OnExpand": {
+      "description": "Обработчик события при раскрытии какого-либо элемента",
+     "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
+    },
+    "OnCollapse": {
+      "description": "Обработчик события при закрытии какого-либо элемента",
+      "$ref": "https://raw.githubusercontent.com/InfinniPlatform/InfinniUI-schema/master/Script/LinkScript.json"
     }
   }
 }
