@@ -39,6 +39,10 @@
 	  "ValueFormat": {
       "description": "Формат отображения выбранного элемента",
       "type": "string"
+    },
+    "NoItemsMessage": {
+      "description": "Текст сообщения о неудачном результате поиска",
+      "type": "string"
     }
   }
 }
