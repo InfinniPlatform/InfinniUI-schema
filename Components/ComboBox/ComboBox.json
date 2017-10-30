@@ -43,6 +43,11 @@
     "NoItemsMessage": {
       "description": "Текст сообщения о неудачном результате поиска",
       "type": "string"
+    },
+    "ExpandOnEnter": {
+      "description": "Открытие выпадающего списка по нажатию на клавишу Enter",
+      "type": "boolean",
+      "default": true
     }
   }
 }

@@ -27,6 +27,11 @@
     "TimeZone": {
       "description": "Смещение часового пояса, являющееся разностью в минутах между временем UTC и местным временем",
       "type": "integer"
+    },
+    "ExpandOnEnter": {
+      "description": "Открытие выпадающего меню по нажатию на клавишу Enter",
+      "type": "boolean",
+      "default": true
     }
   }
 }
