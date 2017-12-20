@@ -16,6 +16,10 @@
       "description": "Текст метки",
       "type": "string"
     },
+    "LabelTextTitle": {
+      "description": "Копировать текст метки в атрибут title или нет",
+      "type": "boolean"
+    },
     "LabelFloating": {
       "description": "Является ли метка плавающей",
       "type": "boolean",
